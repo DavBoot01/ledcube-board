@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -101,6 +101,7 @@ AR Path="/60724289" Ref="R?"  Part="1"
 AR Path="/60627ECF/60724289" Ref="R?"  Part="1" 
 AR Path="/5FF20301/60724289" Ref="R?"  Part="1" 
 AR Path="/5FF1FA45/60724289" Ref="R?"  Part="1" 
+AR Path="/60710B43/60724289" Ref="R?"  Part="1" 
 F 0 "R?" H 3120 1696 50  0000 L CNN
 F 1 "10K" H 3120 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 1650 50  0001 C CNN
@@ -149,6 +150,7 @@ AR Path="/607242A2" Ref="R?"  Part="1"
 AR Path="/60627ECF/607242A2" Ref="R?"  Part="1" 
 AR Path="/5FF20301/607242A2" Ref="R?"  Part="1" 
 AR Path="/5FF1FA45/607242A2" Ref="R?"  Part="1" 
+AR Path="/60710B43/607242A2" Ref="R?"  Part="1" 
 F 0 "R?" H 3145 3246 50  0000 L CNN
 F 1 "10K" H 3145 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3005 3200 50  0001 C CNN
@@ -199,6 +201,7 @@ AR Path="/607242BC" Ref="R?"  Part="1"
 AR Path="/60627ECF/607242BC" Ref="R?"  Part="1" 
 AR Path="/5FF20301/607242BC" Ref="R?"  Part="1" 
 AR Path="/5FF1FA45/607242BC" Ref="R?"  Part="1" 
+AR Path="/60710B43/607242BC" Ref="R?"  Part="1" 
 F 0 "R?" H 3145 4621 50  0000 L CNN
 F 1 "10K" H 3145 4530 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3005 4575 50  0001 C CNN
@@ -268,6 +271,7 @@ AR Path="/607242E0" Ref="R?"  Part="1"
 AR Path="/60627ECF/607242E0" Ref="R?"  Part="1" 
 AR Path="/5FF20301/607242E0" Ref="R?"  Part="1" 
 AR Path="/5FF1FA45/607242E0" Ref="R?"  Part="1" 
+AR Path="/60710B43/607242E0" Ref="R?"  Part="1" 
 F 0 "R?" H 5720 1721 50  0000 L CNN
 F 1 "10K" H 5720 1630 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5580 1675 50  0001 C CNN
@@ -316,6 +320,7 @@ AR Path="/607242F9" Ref="R?"  Part="1"
 AR Path="/60627ECF/607242F9" Ref="R?"  Part="1" 
 AR Path="/5FF20301/607242F9" Ref="R?"  Part="1" 
 AR Path="/5FF1FA45/607242F9" Ref="R?"  Part="1" 
+AR Path="/60710B43/607242F9" Ref="R?"  Part="1" 
 F 0 "R?" H 5745 3271 50  0000 L CNN
 F 1 "10K" H 5745 3180 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5605 3225 50  0001 C CNN
@@ -370,6 +375,7 @@ AR Path="/60724315" Ref="R?"  Part="1"
 AR Path="/60627ECF/60724315" Ref="R?"  Part="1" 
 AR Path="/5FF20301/60724315" Ref="R?"  Part="1" 
 AR Path="/5FF1FA45/60724315" Ref="R?"  Part="1" 
+AR Path="/60710B43/60724315" Ref="R?"  Part="1" 
 F 0 "R?" H 5745 4646 50  0000 L CNN
 F 1 "10K" H 5745 4555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5605 4600 50  0001 C CNN
@@ -410,6 +416,7 @@ AR Path="/6072432A" Ref="R?"  Part="1"
 AR Path="/60627ECF/6072432A" Ref="R?"  Part="1" 
 AR Path="/5FF20301/6072432A" Ref="R?"  Part="1" 
 AR Path="/5FF1FA45/6072432A" Ref="R?"  Part="1" 
+AR Path="/60710B43/6072432A" Ref="R?"  Part="1" 
 F 0 "R?" H 8270 3246 50  0000 L CNN
 F 1 "10K" H 8270 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8130 3200 50  0001 C CNN
@@ -458,6 +465,7 @@ AR Path="/60724343" Ref="R?"  Part="1"
 AR Path="/60627ECF/60724343" Ref="R?"  Part="1" 
 AR Path="/5FF20301/60724343" Ref="R?"  Part="1" 
 AR Path="/5FF1FA45/60724343" Ref="R?"  Part="1" 
+AR Path="/60710B43/60724343" Ref="R?"  Part="1" 
 F 0 "R?" H 8245 1696 50  0000 L CNN
 F 1 "10K" H 8245 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8105 1650 50  0001 C CNN
@@ -570,6 +578,7 @@ U 1 1 60724385
 P 9900 5150
 AR Path="/5FF20301/60724385" Ref="J?"  Part="1" 
 AR Path="/5FF1FA45/60724385" Ref="J?"  Part="1" 
+AR Path="/60710B43/60724385" Ref="J?"  Part="1" 
 F 0 "J?" H 10130 5146 50  0000 L CNN
 F 1 "B8B-PH-SM4-TB(LF)(SN)" H 9375 4500 50  0000 L CNN
 F 2 "B8B-PH-SM4-TB(LF)(SN)" H 9900 5150 50  0001 L BNN
