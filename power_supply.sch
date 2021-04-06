@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -166,6 +166,7 @@ AR Path="/606C68B9" Ref="R?"  Part="1"
 AR Path="/60627ECF/606C68B9" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606C68B9" Ref="R?"  Part="1" 
 AR Path="/5FF4E7F9/606C68B9" Ref="R?"  Part="1" 
+AR Path="/606C046F/606C68B9" Ref="R?"  Part="1" 
 F 0 "R?" H 5570 4046 50  0000 L CNN
 F 1 "121" H 5570 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4000 50  0001 C CNN
@@ -182,6 +183,7 @@ AR Path="/606C68C0" Ref="R?"  Part="1"
 AR Path="/60627ECF/606C68C0" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606C68C0" Ref="R?"  Part="1" 
 AR Path="/5FF4E7F9/606C68C0" Ref="R?"  Part="1" 
+AR Path="/606C046F/606C68C0" Ref="R?"  Part="1" 
 F 0 "R?" H 5570 4346 50  0000 L CNN
 F 1 "42.2" H 5570 4255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4300 50  0001 C CNN
@@ -198,6 +200,7 @@ AR Path="/606C68C7" Ref="R?"  Part="1"
 AR Path="/60627ECF/606C68C7" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606C68C7" Ref="R?"  Part="1" 
 AR Path="/5FF4E7F9/606C68C7" Ref="R?"  Part="1" 
+AR Path="/606C046F/606C68C7" Ref="R?"  Part="1" 
 F 0 "R?" H 5570 4646 50  0000 L CNN
 F 1 "56.2" H 5570 4555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4600 50  0001 C CNN
@@ -240,6 +243,7 @@ AR Path="/60627ECF/606C68DD" Ref="R?"  Part="1"
 AR Path="/5FF20301/606C68DD" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606C68DD" Ref="R?"  Part="1" 
 AR Path="/5FF4E7F9/606C68DD" Ref="R?"  Part="1" 
+AR Path="/606C046F/606C68DD" Ref="R?"  Part="1" 
 F 0 "R?" V 8150 3625 50  0000 L CNN
 F 1 "1K" V 8150 3975 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8030 3850 50  0001 C CNN
@@ -256,6 +260,7 @@ U 1 1 606C68E5
 P 8500 4075
 AR Path="/6037AE16/606C68E5" Ref="D?"  Part="1" 
 AR Path="/5FF4E7F9/606C68E5" Ref="D?"  Part="1" 
+AR Path="/606C046F/606C68E5" Ref="D?"  Part="1" 
 F 0 "D?" V 8600 4000 50  0000 C CNN
 F 1 "GREEN" V 8475 3875 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8500 4075 50  0001 C CNN
