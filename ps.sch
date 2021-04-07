@@ -774,23 +774,9 @@ F 5 "4" H 2325 2475 50  0001 L BNN "PARTREV"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1425 1575 1525 1575
-Wire Wire Line
-	1025 1500 1025 1575
-Text HLabel 1025 1500 1    50   Input ~ 0
+	1325 1500 1325 1575
+Text HLabel 1325 1500 1    50   Input ~ 0
 VCC_3V3
 Wire Wire Line
-	1025 1575 1125 1575
-$Comp
-L Device:R R80
-U 1 1 60792B43
-P 1275 1575
-F 0 "R80" V 1068 1575 50  0000 C CNN
-F 1 "0R" V 1159 1575 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1205 1575 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 1275 1575 50  0001 C CNN
-F 4 "541-2779-1-ND" V 1275 1575 50  0001 C CNN "Digikey"
-	1    1275 1575
-	0    1    1    0   
-$EndComp
+	1325 1575 1525 1575
 $EndSCHEMATC
