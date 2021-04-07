@@ -233,14 +233,90 @@ Entry Wire Line
 	7125 3400 7225 3500
 Wire Wire Line
 	6700 3525 7125 3525
-Wire Bus Line
-	4450 2550 4450 4050
-Wire Bus Line
-	7225 3375 7225 4250
 Entry Wire Line
 	7125 3525 7225 3625
 Text Label 7975 4250 0    50   ~ 0
 DATA_LED[1..8]
 Text Label 5550 2550 0    50   ~ 0
 LAYER_SEL[1..8]
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 606E007F
+P 3900 950
+F 0 "H1" H 4000 999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4000 908 50  0000 L CNN
+F 2 "" H 3900 950 50  0001 C CNN
+F 3 "~" H 3900 950 50  0001 C CNN
+	1    3900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 606E05F4
+P 4750 950
+F 0 "H2" H 4850 999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4850 908 50  0000 L CNN
+F 2 "" H 4750 950 50  0001 C CNN
+F 3 "~" H 4750 950 50  0001 C CNN
+	1    4750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 606E0A81
+P 5600 925
+F 0 "H3" H 5700 974 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5700 883 50  0000 L CNN
+F 2 "" H 5600 925 50  0001 C CNN
+F 3 "~" H 5600 925 50  0001 C CNN
+	1    5600 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 606E0EB3
+P 6450 900
+F 0 "H4" H 6550 949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6550 858 50  0000 L CNN
+F 2 "" H 6450 900 50  0001 C CNN
+F 3 "~" H 6450 900 50  0001 C CNN
+	1    6450 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1275 4750 1275
+Wire Wire Line
+	6450 1275 6450 1000
+Wire Wire Line
+	4750 1050 4750 1275
+Connection ~ 4750 1275
+Wire Wire Line
+	4750 1275 5175 1275
+Wire Wire Line
+	5600 1025 5600 1275
+Connection ~ 5600 1275
+Wire Wire Line
+	5600 1275 6450 1275
+Wire Wire Line
+	5175 1275 5175 1375
+Connection ~ 5175 1275
+Wire Wire Line
+	5175 1275 5600 1275
+$Comp
+L power:GND #PWR051
+U 1 1 606E51BC
+P 5175 1375
+F 0 "#PWR051" H 5175 1125 50  0001 C CNN
+F 1 "GND" H 5180 1202 50  0000 C CNN
+F 2 "" H 5175 1375 50  0001 C CNN
+F 3 "" H 5175 1375 50  0001 C CNN
+	1    5175 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1050 3900 1275
+Wire Bus Line
+	7225 3375 7225 4250
+Wire Bus Line
+	4450 2550 4450 4050
 $EndSCHEMATC
