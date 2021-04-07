@@ -83,12 +83,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 4475 5200 4475
 Entry Wire Line
-	7125 3275 7225 3375
-Entry Wire Line
-	7125 3400 7225 3500
-Entry Wire Line
-	7125 3525 7225 3625
-Entry Wire Line
 	7125 3650 7225 3750
 Entry Wire Line
 	7125 3775 7225 3875
@@ -96,8 +90,6 @@ Entry Wire Line
 	7125 3900 7225 4000
 Entry Wire Line
 	7125 4025 7225 4125
-Entry Wire Line
-	7125 4150 7225 4250
 Wire Wire Line
 	6700 4350 7850 4350
 Wire Wire Line
@@ -137,8 +129,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 3400 7125 3400
 Wire Wire Line
-	6700 3525 7125 3525
-Wire Wire Line
 	6700 3650 7125 3650
 Wire Wire Line
 	6700 3775 7125 3775
@@ -146,8 +136,6 @@ Wire Wire Line
 	6700 3900 7125 3900
 Wire Wire Line
 	6700 4025 7125 4025
-Wire Wire Line
-	6700 4150 7125 4150
 Text Label 6725 3275 0    50   ~ 0
 DATA_LED1
 Text Label 6725 3400 0    50   ~ 0
@@ -164,8 +152,6 @@ Text Label 6725 4025 0    50   ~ 0
 DATA_LED7
 Text Label 6725 4150 0    50   ~ 0
 DATA_LED8
-Wire Bus Line
-	7225 4250 8800 4250
 Wire Wire Line
 	4550 3275 5200 3275
 Wire Wire Line
@@ -232,11 +218,29 @@ Wire Wire Line
 	1375 3925 1375 4350
 Wire Wire Line
 	1375 4350 1700 4350
-Wire Bus Line
-	7225 3375 7225 4250
-Wire Bus Line
-	4450 2550 4450 4050
 Connection ~ 2925 2075
 Wire Wire Line
 	2925 2075 3850 2075
+Wire Wire Line
+	6700 4150 7125 4150
+Entry Wire Line
+	7125 4150 7225 4250
+Wire Bus Line
+	7225 4250 8800 4250
+Entry Wire Line
+	7125 3275 7225 3375
+Entry Wire Line
+	7125 3400 7225 3500
+Wire Wire Line
+	6700 3525 7125 3525
+Wire Bus Line
+	4450 2550 4450 4050
+Wire Bus Line
+	7225 3375 7225 4250
+Entry Wire Line
+	7125 3525 7225 3625
+Text Label 7975 4250 0    50   ~ 0
+DATA_LED[1..8]
+Text Label 5550 2550 0    50   ~ 0
+LAYER_SEL[1..8]
 $EndSCHEMATC

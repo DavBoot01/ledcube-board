@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -35,10 +35,10 @@ Connection ~ 2800 5525
 Wire Wire Line
 	2800 5525 2850 5525
 $Comp
-L power:GND #PWR?
+L power:GND #PWR042
 U 1 1 606E2A86
 P 2800 5625
-F 0 "#PWR?" H 2800 5375 50  0001 C CNN
+F 0 "#PWR042" H 2800 5375 50  0001 C CNN
 F 1 "GND" H 2805 5452 50  0000 C CNN
 F 2 "" H 2800 5625 50  0001 C CNN
 F 3 "" H 2800 5625 50  0001 C CNN
@@ -91,10 +91,10 @@ Wire Wire Line
 Wire Wire Line
 	4475 6425 4475 6975
 $Comp
-L power:GND #PWR?
+L power:GND #PWR046
 U 1 1 606E2AA4
 P 5600 7525
-F 0 "#PWR?" H 5600 7275 50  0001 C CNN
+F 0 "#PWR046" H 5600 7275 50  0001 C CNN
 F 1 "GND" H 5605 7352 50  0000 C CNN
 F 2 "" H 5600 7525 50  0001 C CNN
 F 3 "" H 5600 7525 50  0001 C CNN
@@ -328,8 +328,8 @@ AR Path="/606E2B1D" Ref="R?"  Part="1"
 AR Path="/60627ECF/606E2B1D" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B1D" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B1D" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B1D" Ref="R?"  Part="1" 
-F 0 "R?" H 4545 6321 50  0000 L CNN
+AR Path="/606D8837/606E2B1D" Ref="R94"  Part="1" 
+F 0 "R94" H 4545 6321 50  0000 L CNN
 F 1 "10K" H 4545 6230 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4405 6275 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4475 6275 50  0001 C CNN
@@ -345,8 +345,8 @@ AR Path="/606E2B24" Ref="R?"  Part="1"
 AR Path="/60627ECF/606E2B24" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B24" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B24" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B24" Ref="R?"  Part="1" 
-F 0 "R?" V 9650 4025 50  0000 L CNN
+AR Path="/606D8837/606E2B24" Ref="R98"  Part="1" 
+F 0 "R98" V 9650 4025 50  0000 L CNN
 F 1 "1K" V 9650 4375 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4250 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9600 4250 50  0001 C CNN
@@ -374,8 +374,8 @@ AR Path="/606E2B31" Ref="R?"  Part="1"
 AR Path="/60627ECF/606E2B31" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B31" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B31" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B31" Ref="R?"  Part="1" 
-F 0 "R?" H 4845 6321 50  0000 L CNN
+AR Path="/606D8837/606E2B31" Ref="R95"  Part="1" 
+F 0 "R95" H 4845 6321 50  0000 L CNN
 F 1 "10K" H 4845 6230 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4705 6275 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4775 6275 50  0001 C CNN
@@ -391,8 +391,8 @@ AR Path="/606E2B38" Ref="R?"  Part="1"
 AR Path="/60627ECF/606E2B38" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B38" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B38" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B38" Ref="R?"  Part="1" 
-F 0 "R?" H 5145 6321 50  0000 L CNN
+AR Path="/606D8837/606E2B38" Ref="R96"  Part="1" 
+F 0 "R96" H 5145 6321 50  0000 L CNN
 F 1 "10K" H 5145 6230 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5005 6275 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5075 6275 50  0001 C CNN
@@ -408,8 +408,8 @@ AR Path="/606E2B3F" Ref="R?"  Part="1"
 AR Path="/60627ECF/606E2B3F" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B3F" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B3F" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B3F" Ref="R?"  Part="1" 
-F 0 "R?" H 5445 6321 50  0000 L CNN
+AR Path="/606D8837/606E2B3F" Ref="R97"  Part="1" 
+F 0 "R97" H 5445 6321 50  0000 L CNN
 F 1 "10K" H 5445 6230 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5305 6275 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5375 6275 50  0001 C CNN
@@ -425,8 +425,8 @@ AR Path="/606E2B46" Ref="R?"  Part="1"
 AR Path="/60627ECF/606E2B46" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B46" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B46" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B46" Ref="R?"  Part="1" 
-F 0 "R?" V 9650 4150 50  0000 L CNN
+AR Path="/606D8837/606E2B46" Ref="R99"  Part="1" 
+F 0 "R99" V 9650 4150 50  0000 L CNN
 F 1 "1K" V 9650 4500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4375 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9600 4375 50  0001 C CNN
@@ -442,8 +442,8 @@ AR Path="/606E2B4D" Ref="R?"  Part="1"
 AR Path="/60627ECF/606E2B4D" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B4D" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B4D" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B4D" Ref="R?"  Part="1" 
-F 0 "R?" V 9650 4275 50  0000 L CNN
+AR Path="/606D8837/606E2B4D" Ref="R100"  Part="1" 
+F 0 "R100" V 9650 4275 50  0000 L CNN
 F 1 "1K" V 9650 4625 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4500 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9600 4500 50  0001 C CNN
@@ -459,8 +459,8 @@ AR Path="/606E2B54" Ref="R?"  Part="1"
 AR Path="/60627ECF/606E2B54" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B54" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B54" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B54" Ref="R?"  Part="1" 
-F 0 "R?" V 9650 4400 50  0000 L CNN
+AR Path="/606D8837/606E2B54" Ref="R101"  Part="1" 
+F 0 "R101" V 9650 4400 50  0000 L CNN
 F 1 "1K" V 9650 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4625 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9600 4625 50  0001 C CNN
@@ -477,10 +477,10 @@ Wire Wire Line
 Wire Wire Line
 	10000 4625 9750 4625
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 606E2B5F
 P 10150 4250
-F 0 "D?" H 10275 4200 50  0000 C CNN
+F 0 "D2" H 10275 4200 50  0000 C CNN
 F 1 "RED" H 9875 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4250 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 10150 4250 50  0001 C CNN
@@ -489,10 +489,10 @@ F 4 "350-2038-1-ND" H 10150 4250 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D3
 U 1 1 606E2B66
 P 10150 4375
-F 0 "D?" H 10275 4325 50  0000 C CNN
+F 0 "D3" H 10275 4325 50  0000 C CNN
 F 1 "GREEN" H 9850 4325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4375 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 10150 4375 50  0001 C CNN
@@ -501,10 +501,10 @@ F 4 "350-2044-1-ND" H 10150 4375 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D4
 U 1 1 606E2B6D
 P 10150 4500
-F 0 "D?" H 10275 4450 50  0000 C CNN
+F 0 "D4" H 10275 4450 50  0000 C CNN
 F 1 "ORANGE" H 9825 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4500 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 10150 4500 50  0001 C CNN
@@ -513,10 +513,10 @@ F 4 "350-2040-1-ND" H 10150 4500 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D5
 U 1 1 606E2B74
 P 10150 4625
-F 0 "D?" H 10275 4575 50  0000 C CNN
+F 0 "D5" H 10275 4575 50  0000 C CNN
 F 1 "ORANGE" H 9825 4575 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4625 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 10150 4625 50  0001 C CNN
@@ -560,10 +560,10 @@ Wire Wire Line
 	10825 4625 10825 4700
 Connection ~ 10825 4625
 $Comp
-L power:GND #PWR?
+L power:GND #PWR050
 U 1 1 606E2B8D
 P 10825 4700
-F 0 "#PWR?" H 10825 4450 50  0001 C CNN
+F 0 "#PWR050" H 10825 4450 50  0001 C CNN
 F 1 "GND" H 10830 4527 50  0000 C CNN
 F 2 "" H 10825 4700 50  0001 C CNN
 F 3 "" H 10825 4700 50  0001 C CNN
@@ -571,10 +571,10 @@ F 3 "" H 10825 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscillator:ASE-xxxMHz X?
+L Oscillator:ASE-xxxMHz X1
 U 1 1 606E2B94
 P 1600 6625
-F 0 "X?" H 1825 6875 50  0000 L CNN
+F 0 "X1" H 1825 6875 50  0000 L CNN
 F 1 "ASE-40MHz" H 1650 6350 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 2300 6275 50  0001 C CNN
 F 3 "http://www.abracon.com/Oscillators/ASV.pdf" H 1500 6625 50  0001 C CNN
@@ -583,10 +583,10 @@ F 4 "535-ASEAIG-40.000MHZ-C-S-TCT-ND" H 1600 6625 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscillator:ASE-xxxMHz X?
+L Oscillator:ASE-xxxMHz X2
 U 1 1 606E2B9B
 P 3150 7075
-F 0 "X?" H 3375 7350 50  0000 L CNN
+F 0 "X2" H 3375 7350 50  0000 L CNN
 F 1 "ASE-25MHz" H 3225 6800 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 3850 6725 50  0001 C CNN
 F 3 "http://www.abracon.com/Oscillators/ASV.pdf" H 3050 7075 50  0001 C CNN
@@ -595,10 +595,10 @@ F 4 "535-9568-1-ND" H 3150 7075 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR043
 U 1 1 606E2BA1
 P 3150 7475
-F 0 "#PWR?" H 3150 7225 50  0001 C CNN
+F 0 "#PWR043" H 3150 7225 50  0001 C CNN
 F 1 "GND" H 3155 7302 50  0000 C CNN
 F 2 "" H 3150 7475 50  0001 C CNN
 F 3 "" H 3150 7475 50  0001 C CNN
@@ -650,10 +650,10 @@ Wire Wire Line
 	3150 7375 3150 7475
 Connection ~ 3150 7475
 $Comp
-L power:GND #PWR?
+L power:GND #PWR041
 U 1 1 606E2BBF
 P 1600 7025
-F 0 "#PWR?" H 1600 6775 50  0001 C CNN
+F 0 "#PWR041" H 1600 6775 50  0001 C CNN
 F 1 "GND" H 1605 6852 50  0000 C CNN
 F 2 "" H 1600 7025 50  0001 C CNN
 F 3 "" H 1600 7025 50  0001 C CNN
@@ -678,8 +678,8 @@ AR Path="/606E2BCC" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2BCC" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2BCC" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2BCC" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2BCC" Ref="C?"  Part="1" 
-F 0 "C?" H 2425 7325 50  0000 L CNN
+AR Path="/606D8837/606E2BCC" Ref="C19"  Part="1" 
+F 0 "C19" H 2425 7325 50  0000 L CNN
 F 1 "10nF" H 2350 7225 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 7125 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2700 7275 50  0001 C CNN
@@ -695,8 +695,8 @@ AR Path="/606E2BD3" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2BD3" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2BD3" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2BD3" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2BD3" Ref="C?"  Part="1" 
-F 0 "C?" H 875 6875 50  0000 L CNN
+AR Path="/606D8837/606E2BD3" Ref="C18"  Part="1" 
+F 0 "C18" H 875 6875 50  0000 L CNN
 F 1 "10nF" H 800 6775 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1188 6675 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1150 6825 50  0001 C CNN
@@ -712,8 +712,8 @@ AR Path="/606E2BDA" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2BDA" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2BDA" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2BDA" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2BDA" Ref="C?"  Part="1" 
-F 0 "C?" H 8225 5925 50  0000 L CNN
+AR Path="/606D8837/606E2BDA" Ref="C25"  Part="1" 
+F 0 "C25" H 8225 5925 50  0000 L CNN
 F 1 "10nF" H 8175 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8538 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8500 5875 50  0001 C CNN
@@ -729,8 +729,8 @@ AR Path="/606E2BE1" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2BE1" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2BE1" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2BE1" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2BE1" Ref="C?"  Part="1" 
-F 0 "C?" H 8675 5925 50  0000 L CNN
+AR Path="/606D8837/606E2BE1" Ref="C26"  Part="1" 
+F 0 "C26" H 8675 5925 50  0000 L CNN
 F 1 "10nF" H 8650 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8988 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8950 5875 50  0001 C CNN
@@ -746,8 +746,8 @@ AR Path="/606E2BE8" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2BE8" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2BE8" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2BE8" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2BE8" Ref="C?"  Part="1" 
-F 0 "C?" H 10425 5925 50  0000 L CNN
+AR Path="/606D8837/606E2BE8" Ref="C30"  Part="1" 
+F 0 "C30" H 10425 5925 50  0000 L CNN
 F 1 "100nF" H 10350 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10713 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 10675 5875 50  0001 C CNN
@@ -763,8 +763,8 @@ AR Path="/606E2BEF" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2BEF" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2BEF" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2BEF" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2BEF" Ref="C?"  Part="1" 
-F 0 "C?" H 10850 5925 50  0000 L CNN
+AR Path="/606D8837/606E2BEF" Ref="C31"  Part="1" 
+F 0 "C31" H 10850 5925 50  0000 L CNN
 F 1 "100nF" H 10775 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11138 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 11100 5875 50  0001 C CNN
@@ -797,10 +797,10 @@ Connection ~ 10675 6100
 Wire Wire Line
 	9625 6100 9625 6175
 $Comp
-L power:GND #PWR?
+L power:GND #PWR049
 U 1 1 606E2C02
 P 9625 6175
-F 0 "#PWR?" H 9625 5925 50  0001 C CNN
+F 0 "#PWR049" H 9625 5925 50  0001 C CNN
 F 1 "GND" H 9630 6002 50  0000 C CNN
 F 2 "" H 9625 6175 50  0001 C CNN
 F 3 "" H 9625 6175 50  0001 C CNN
@@ -825,8 +825,8 @@ AR Path="/606E2C0E" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2C0E" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2C0E" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2C0E" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2C0E" Ref="C?"  Part="1" 
-F 0 "C?" H 9125 5925 50  0000 L CNN
+AR Path="/606D8837/606E2C0E" Ref="C27"  Part="1" 
+F 0 "C27" H 9125 5925 50  0000 L CNN
 F 1 "10nF" H 9100 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9400 5875 50  0001 C CNN
@@ -848,8 +848,8 @@ AR Path="/606E2C18" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2C18" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2C18" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2C18" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2C18" Ref="C?"  Part="1" 
-F 0 "C?" H 7775 5925 50  0000 L CNN
+AR Path="/606D8837/606E2C18" Ref="C20"  Part="1" 
+F 0 "C20" H 7775 5925 50  0000 L CNN
 F 1 "10nF" H 7725 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8088 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8050 5875 50  0001 C CNN
@@ -873,8 +873,8 @@ AR Path="/606E2C23" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2C23" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2C23" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2C23" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2C23" Ref="C?"  Part="1" 
-F 0 "C?" H 9575 5925 50  0000 L CNN
+AR Path="/606D8837/606E2C23" Ref="C28"  Part="1" 
+F 0 "C28" H 9575 5925 50  0000 L CNN
 F 1 "100nF" H 9500 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9863 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9825 5875 50  0001 C CNN
@@ -890,8 +890,8 @@ AR Path="/606E2C2A" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2C2A" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2C2A" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2C2A" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2C2A" Ref="C?"  Part="1" 
-F 0 "C?" H 10000 5925 50  0000 L CNN
+AR Path="/606D8837/606E2C2A" Ref="C29"  Part="1" 
+F 0 "C29" H 10000 5925 50  0000 L CNN
 F 1 "100nF" H 9925 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10288 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 10250 5875 50  0001 C CNN
@@ -958,8 +958,8 @@ U 1 1 606E2C57
 P 6200 6875
 AR Path="/5FF20301/606E2C57" Ref="J?"  Part="1" 
 AR Path="/6037AE16/606E2C57" Ref="J?"  Part="1" 
-AR Path="/606D8837/606E2C57" Ref="J?"  Part="1" 
-F 0 "J?" H 6430 6871 50  0000 L CNN
+AR Path="/606D8837/606E2C57" Ref="J12"  Part="1" 
+F 0 "J12" H 6430 6871 50  0000 L CNN
 F 1 "B8B-PH-SM4-TB(LF)(SN)" H 5800 6225 50  0000 L CNN
 F 2 "B8B-PH-SM4-TB(LF)(SN)" H 6200 6875 50  0001 L BNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6200 6875 50  0001 L BNN
@@ -1024,10 +1024,10 @@ Wire Wire Line
 Wire Wire Line
 	5075 3500 5075 3575
 $Comp
-L power:GND #PWR?
+L power:GND #PWR044
 U 1 1 606E2C81
 P 5075 3575
-F 0 "#PWR?" H 5075 3325 50  0001 C CNN
+F 0 "#PWR044" H 5075 3325 50  0001 C CNN
 F 1 "GND" H 5080 3402 50  0000 C CNN
 F 2 "" H 5075 3575 50  0001 C CNN
 F 3 "" H 5075 3575 50  0001 C CNN
@@ -1058,8 +1058,8 @@ AR Path="/606E2C91" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2C91" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2C91" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2C91" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2C91" Ref="C?"  Part="1" 
-F 0 "C?" V 8075 750 50  0000 L CNN
+AR Path="/606D8837/606E2C91" Ref="C21"  Part="1" 
+F 0 "C21" V 8075 750 50  0000 L CNN
 F 1 "100nF" V 8075 375 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8163 525 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8125 675 50  0001 C CNN
@@ -1075,8 +1075,8 @@ AR Path="/606E2C98" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2C98" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2C98" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2C98" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2C98" Ref="C?"  Part="1" 
-F 0 "C?" V 8075 1100 50  0000 L CNN
+AR Path="/606D8837/606E2C98" Ref="C22"  Part="1" 
+F 0 "C22" V 8075 1100 50  0000 L CNN
 F 1 "100nF" V 8075 725 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8163 875 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8125 1025 50  0001 C CNN
@@ -1098,10 +1098,10 @@ Connection ~ 8400 850
 Wire Wire Line
 	8400 850  8400 1025
 $Comp
-L power:GND #PWR?
+L power:GND #PWR047
 U 1 1 606E2CA5
 P 8550 925
-F 0 "#PWR?" H 8550 675 50  0001 C CNN
+F 0 "#PWR047" H 8550 675 50  0001 C CNN
 F 1 "GND" H 8555 752 50  0000 C CNN
 F 2 "" H 8550 925 50  0001 C CNN
 F 3 "" H 8550 925 50  0001 C CNN
@@ -1138,8 +1138,8 @@ AR Path="/606E2CB8" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2CB8" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2CB8" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2CB8" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2CB8" Ref="C?"  Part="1" 
-F 0 "C?" V 8075 2950 50  0000 L CNN
+AR Path="/606D8837/606E2CB8" Ref="C23"  Part="1" 
+F 0 "C23" V 8075 2950 50  0000 L CNN
 F 1 "100nF" V 8075 2575 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8163 2725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8125 2875 50  0001 C CNN
@@ -1155,8 +1155,8 @@ AR Path="/606E2CBF" Ref="C?"  Part="1"
 AR Path="/60627ECF/606E2CBF" Ref="C?"  Part="1" 
 AR Path="/5FF20301/606E2CBF" Ref="C?"  Part="1" 
 AR Path="/6037AE16/606E2CBF" Ref="C?"  Part="1" 
-AR Path="/606D8837/606E2CBF" Ref="C?"  Part="1" 
-F 0 "C?" V 8075 3300 50  0000 L CNN
+AR Path="/606D8837/606E2CBF" Ref="C24"  Part="1" 
+F 0 "C24" V 8075 3300 50  0000 L CNN
 F 1 "100nF" V 8075 2925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8163 3075 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8125 3225 50  0001 C CNN
@@ -1178,10 +1178,10 @@ Connection ~ 8400 3050
 Wire Wire Line
 	8400 3050 8400 3225
 $Comp
-L power:GND #PWR?
+L power:GND #PWR048
 U 1 1 606E2CCC
 P 8550 3125
-F 0 "#PWR?" H 8550 2875 50  0001 C CNN
+F 0 "#PWR048" H 8550 2875 50  0001 C CNN
 F 1 "GND" H 8555 2952 50  0000 C CNN
 F 2 "" H 8550 3125 50  0001 C CNN
 F 3 "" H 8550 3125 50  0001 C CNN
@@ -1209,8 +1209,8 @@ L SN74LVCC3245APWR:SN74LVCC3245APWR U?
 U 1 1 606E2CDD
 P 6725 1600
 AR Path="/606E2CDD" Ref="U?"  Part="1" 
-AR Path="/606D8837/606E2CDD" Ref="U?"  Part="1" 
-F 0 "U?" H 6725 2670 50  0000 C CNN
+AR Path="/606D8837/606E2CDD" Ref="U14"  Part="1" 
+F 0 "U14" H 6725 2670 50  0000 C CNN
 F 1 "SN74LVCC3245APWR" H 6725 2579 50  0000 C CNN
 F 2 "SOP65P640X120-24N" H 6725 1600 50  0001 L BNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvcc3245a" H 6725 1600 50  0001 L BNN
@@ -1219,10 +1219,10 @@ F 4 "296-8564-1-ND" H 6725 1600 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SN74LVCC3245APWR:SN74LVCC3245APWR U?
+L SN74LVCC3245APWR:SN74LVCC3245APWR U15
 U 1 1 606E2CE3
 P 6725 3800
-F 0 "U?" H 6725 4870 50  0000 C CNN
+F 0 "U15" H 6725 4870 50  0000 C CNN
 F 1 "SN74LVCC3245APWR" H 6725 4779 50  0000 C CNN
 F 2 "SOP65P640X120-24N" H 6725 3800 50  0001 L BNN
 F 3 "" H 6725 3800 50  0001 L BNN
@@ -1259,10 +1259,10 @@ Wire Wire Line
 Wire Wire Line
 	5225 750  5225 825 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR045
 U 1 1 606E2CF9
 P 5225 825
-F 0 "#PWR?" H 5225 575 50  0001 C CNN
+F 0 "#PWR045" H 5225 575 50  0001 C CNN
 F 1 "GND" H 5230 652 50  0000 C CNN
 F 2 "" H 5225 825 50  0001 C CNN
 F 3 "" H 5225 825 50  0001 C CNN
@@ -1407,10 +1407,10 @@ Wire Wire Line
 Text Label 5400 1500 0    50   ~ 0
 DATA_ROW1_3V3
 $Comp
-L CPLD_Xilinx:XC9572XL-VQ64 U?
+L CPLD_Xilinx:XC9572XL-VQ64 U13
 U 1 1 606E2D49
 P 2750 3625
-F 0 "U?" H 3350 5425 50  0000 C CNN
+F 0 "U13" H 3350 5425 50  0000 C CNN
 F 1 "XC9572XL-VQ64" H 3375 5300 50  0000 C CNN
 F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" H 2750 3625 50  0001 C CNN
 F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf" H 2750 3625 50  0001 C CNN
