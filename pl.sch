@@ -1006,10 +1006,6 @@ NoConn ~ 1950 3825
 NoConn ~ 1950 3925
 NoConn ~ 1950 4025
 NoConn ~ 1950 4125
-NoConn ~ 1950 4225
-NoConn ~ 1950 4325
-NoConn ~ 1950 4425
-NoConn ~ 1950 4525
 NoConn ~ 1950 4625
 NoConn ~ 1950 4725
 NoConn ~ 1950 4825
@@ -1420,4 +1416,20 @@ F 4 "122-1388-ND" H 2750 3625 50  0001 C CNN "Digikey"
 $EndComp
 Wire Wire Line
 	4925 1100 4925 3300
+Wire Wire Line
+	1950 4225 1600 4225
+Wire Wire Line
+	1950 4325 1600 4325
+Wire Wire Line
+	1950 4425 1600 4425
+Wire Wire Line
+	1950 4525 1600 4525
+Text HLabel 1600 4225 0    50   BiDi ~ 0
+GPIO0
+Text HLabel 1600 4325 0    50   BiDi ~ 0
+GPIO1
+Text HLabel 1600 4425 0    50   BiDi ~ 0
+GPIO2
+Text HLabel 1600 4525 0    50   BiDi ~ 0
+GPIO3
 $EndSCHEMATC

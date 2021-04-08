@@ -270,10 +270,6 @@ NoConn ~ 1525 3075
 NoConn ~ 1525 2575
 NoConn ~ 1525 2475
 NoConn ~ 1525 2375
-NoConn ~ 1525 2275
-NoConn ~ 1525 2175
-NoConn ~ 1525 2075
-NoConn ~ 1525 1975
 NoConn ~ 1525 1875
 NoConn ~ 1525 1775
 NoConn ~ 1525 1675
@@ -779,4 +775,100 @@ Text HLabel 1325 1500 1    50   Input ~ 0
 VCC_3V3
 Wire Wire Line
 	1325 1575 1525 1575
+Text HLabel 2825 4800 2    50   BiDi ~ 0
+GPIO0
+Text HLabel 2825 4900 2    50   BiDi ~ 0
+GPIO1
+Text HLabel 2825 5100 2    50   BiDi ~ 0
+GPIO3
+Text HLabel 2825 5000 2    50   BiDi ~ 0
+GPIO2
+Text Label 1075 1975 0    50   ~ 0
+ESP_GPIO2
+Wire Wire Line
+	1525 1975 1075 1975
+Wire Wire Line
+	1075 2075 1525 2075
+Wire Wire Line
+	1075 2175 1525 2175
+Wire Wire Line
+	1075 2275 1525 2275
+Text Label 1075 2075 0    50   ~ 0
+ESP_GPIO3
+Text Label 1075 2175 0    50   ~ 0
+ESP_GPIO0
+Text Label 1075 2275 0    50   ~ 0
+ESP_GPIO1
+Text Label 1900 4800 0    50   ~ 0
+ESP_GPIO2
+Wire Wire Line
+	2350 4800 1900 4800
+Wire Wire Line
+	1900 4900 2350 4900
+Wire Wire Line
+	1900 5000 2350 5000
+Wire Wire Line
+	1900 5100 2350 5100
+Text Label 1900 4900 0    50   ~ 0
+ESP_GPIO3
+Text Label 1900 5000 0    50   ~ 0
+ESP_GPIO0
+Text Label 1900 5100 0    50   ~ 0
+ESP_GPIO1
+Wire Wire Line
+	2825 4800 2650 4800
+Wire Wire Line
+	2825 4900 2650 4900
+Wire Wire Line
+	2825 5000 2650 5000
+Wire Wire Line
+	2825 5100 2650 5100
+$Comp
+L Device:R R104
+U 1 1 60784602
+P 2500 5100
+F 0 "R104" V 2450 5300 50  0000 C CNN
+F 1 "0R" V 2500 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2430 5100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 2500 5100 50  0001 C CNN
+F 4 "541-2779-1-ND" V 2500 5100 50  0001 C CNN "Digikey"
+	1    2500 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R103
+U 1 1 607852C9
+P 2500 5000
+F 0 "R103" V 2450 5200 50  0000 C CNN
+F 1 "0R" V 2500 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2430 5000 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 2500 5000 50  0001 C CNN
+F 4 "541-2779-1-ND" V 2500 5000 50  0001 C CNN "Digikey"
+	1    2500 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R102
+U 1 1 607856BA
+P 2500 4900
+F 0 "R102" V 2450 5100 50  0000 C CNN
+F 1 "0R" V 2500 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2430 4900 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 2500 4900 50  0001 C CNN
+F 4 "541-2779-1-ND" V 2500 4900 50  0001 C CNN "Digikey"
+	1    2500 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R80
+U 1 1 60785AF5
+P 2500 4800
+F 0 "R80" V 2450 4975 50  0000 C CNN
+F 1 "0R" V 2500 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2430 4800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 2500 4800 50  0001 C CNN
+F 4 "541-2779-1-ND" V 2500 4800 50  0001 C CNN "Digikey"
+	1    2500 4800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
