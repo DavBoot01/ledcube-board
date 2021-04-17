@@ -242,150 +242,6 @@ Wire Wire Line
 Wire Wire Line
 	4125 2500 3825 2500
 $Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J10
-U 1 1 60765771
-P 10625 3825
-F 0 "J10" H 10855 3821 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 10100 3175 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 10625 3825 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10625 3825 50  0001 L BNN
-F 4 "JST Sales" H 10625 3825 50  0001 L BNN "MF"
-F 5 "None" H 10625 3825 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 10625 3825 50  0001 L BNN "MP"
-F 7 "None" H 10625 3825 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 10625 3825 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 10625 3825 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 10625 3825 50  0001 C CNN "Digikey"
-	1    10625 3825
-	1    0    0    -1  
-$EndComp
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J9
-U 1 1 6076577E
-P 10625 2000
-F 0 "J9" H 10855 1996 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 10100 1350 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 10625 2000 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10625 2000 50  0001 L BNN
-F 4 "JST Sales" H 10625 2000 50  0001 L BNN "MF"
-F 5 "None" H 10625 2000 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 10625 2000 50  0001 L BNN "MP"
-F 7 "None" H 10625 2000 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 10625 2000 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 10625 2000 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 10625 2000 50  0001 C CNN "Digikey"
-	1    10625 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J8
-U 1 1 6076578B
-P 7650 5650
-F 0 "J8" H 7880 5646 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 7125 5000 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 7650 5650 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7650 5650 50  0001 L BNN
-F 4 "JST Sales" H 7650 5650 50  0001 L BNN "MF"
-F 5 "None" H 7650 5650 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 7650 5650 50  0001 L BNN "MP"
-F 7 "None" H 7650 5650 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 7650 5650 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 7650 5650 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 7650 5650 50  0001 C CNN "Digikey"
-	1    7650 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J7
-U 1 1 60765798
-P 7650 3825
-F 0 "J7" H 7880 3821 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 7125 3175 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 7650 3825 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7650 3825 50  0001 L BNN
-F 4 "JST Sales" H 7650 3825 50  0001 L BNN "MF"
-F 5 "None" H 7650 3825 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 7650 3825 50  0001 L BNN "MP"
-F 7 "None" H 7650 3825 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 7650 3825 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 7650 3825 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 7650 3825 50  0001 C CNN "Digikey"
-	1    7650 3825
-	1    0    0    -1  
-$EndComp
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J6
-U 1 1 607657A5
-P 7650 2000
-F 0 "J6" H 7880 1996 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 7125 1350 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 7650 2000 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 7650 2000 50  0001 L BNN
-F 4 "JST Sales" H 7650 2000 50  0001 L BNN "MF"
-F 5 "None" H 7650 2000 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 7650 2000 50  0001 L BNN "MP"
-F 7 "None" H 7650 2000 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 7650 2000 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 7650 2000 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 7650 2000 50  0001 C CNN "Digikey"
-	1    7650 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J5
-U 1 1 607657B2
-P 4525 5650
-F 0 "J5" H 4755 5646 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 4000 5000 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 4525 5650 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4525 5650 50  0001 L BNN
-F 4 "JST Sales" H 4525 5650 50  0001 L BNN "MF"
-F 5 "None" H 4525 5650 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 4525 5650 50  0001 L BNN "MP"
-F 7 "None" H 4525 5650 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 4525 5650 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 4525 5650 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 4525 5650 50  0001 C CNN "Digikey"
-	1    4525 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J4
-U 1 1 607657BF
-P 4525 3825
-F 0 "J4" H 4755 3821 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 4000 3175 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 4525 3825 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4525 3825 50  0001 L BNN
-F 4 "JST Sales" H 4525 3825 50  0001 L BNN "MF"
-F 5 "None" H 4525 3825 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 4525 3825 50  0001 L BNN "MP"
-F 7 "None" H 4525 3825 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 4525 3825 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 4525 3825 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 4525 3825 50  0001 C CNN "Digikey"
-	1    4525 3825
-	1    0    0    -1  
-$EndComp
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J3
-U 1 1 607657CC
-P 4525 2000
-F 0 "J3" H 4755 1996 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 4000 1350 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 4525 2000 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4525 2000 50  0001 L BNN
-F 4 "JST Sales" H 4525 2000 50  0001 L BNN "MF"
-F 5 "None" H 4525 2000 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 4525 2000 50  0001 L BNN "MP"
-F 7 "None" H 4525 2000 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 4525 2000 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 4525 2000 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 4525 2000 50  0001 C CNN "Digikey"
-	1    4525 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Driver_LED:STP08CP05 U9
 U 1 1 607657D3
 P 9200 3925
@@ -2372,6 +2228,102 @@ F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 3775 1600 50  0001 C CNN
 F 4 "RHM100DCT-ND" V 3775 1600 50  0001 C CNN "Digikey"
 	1    3775 1600
 	0    1    1    0   
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 607E99F2
+P 4525 2000
+F 0 "J?" H 4755 1996 50  0000 L CNN
+F 1 "molex_53261-0871" H 4755 1905 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 4525 2000 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 4525 2000 50  0001 L BNN
+F 4 "WM7626CT-ND" H 4525 2000 50  0001 C CNN "Digikey"
+	1    4525 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 60806533
+P 4525 3825
+F 0 "J?" H 4755 3821 50  0000 L CNN
+F 1 "molex_53261-0871" H 4755 3730 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 4525 3825 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 4525 3825 50  0001 L BNN
+F 4 "WM7626CT-ND" H 4525 3825 50  0001 C CNN "Digikey"
+	1    4525 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 60822E14
+P 4525 5650
+F 0 "J?" H 4755 5646 50  0000 L CNN
+F 1 "molex_53261-0871" H 4755 5555 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 4525 5650 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 4525 5650 50  0001 L BNN
+F 4 "WM7626CT-ND" H 4525 5650 50  0001 C CNN "Digikey"
+	1    4525 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 6083F4EB
+P 7650 5650
+F 0 "J?" H 7880 5646 50  0000 L CNN
+F 1 "molex_53261-0871" H 7880 5555 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 7650 5650 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 7650 5650 50  0001 L BNN
+F 4 "WM7626CT-ND" H 7650 5650 50  0001 C CNN "Digikey"
+	1    7650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 6085BAFC
+P 7650 3825
+F 0 "J?" H 7880 3821 50  0000 L CNN
+F 1 "molex_53261-0871" H 7880 3730 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 7650 3825 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 7650 3825 50  0001 L BNN
+F 4 "WM7626CT-ND" H 7650 3825 50  0001 C CNN "Digikey"
+	1    7650 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 60878475
+P 7650 2000
+F 0 "J?" H 7880 1996 50  0000 L CNN
+F 1 "molex_53261-0871" H 7880 1905 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 7650 2000 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 7650 2000 50  0001 L BNN
+F 4 "WM7626CT-ND" H 7650 2000 50  0001 C CNN "Digikey"
+	1    7650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 60894D48
+P 10625 2000
+F 0 "J?" H 10855 1996 50  0000 L CNN
+F 1 "molex_53261-0871" H 10855 1905 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 10625 2000 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 10625 2000 50  0001 L BNN
+F 4 "WM7626CT-ND" H 10625 2000 50  0001 C CNN "Digikey"
+	1    10625 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 608B1555
+P 10625 3825
+F 0 "J?" H 10855 3821 50  0000 L CNN
+F 1 "molex_53261-0871" H 10855 3730 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 10625 3825 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 10625 3825 50  0001 L BNN
+F 4 "WM7626CT-ND" H 10625 3825 50  0001 C CNN "Digikey"
+	1    10625 3825
+	1    0    0    -1  
 $EndComp
 Wire Bus Line
 	8375 1000 8375 3325

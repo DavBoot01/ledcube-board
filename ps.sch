@@ -442,7 +442,7 @@ U 1 1 60792BA6
 P 10300 4400
 F 0 "C15" H 10375 4525 50  0000 L CNN
 F 1 "4.7uF" H 10350 4300 50  0000 L CNN
-F 2 "" H 10338 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10338 4250 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/spec/mlccspec_automotive_epoxy_en.pdf?ref_disty=digikey" H 10300 4400 50  0001 C CNN
 F 4 "445-9927-1-ND" H 10300 4400 50  0001 C CNN "Digikey"
 	1    10300 4400

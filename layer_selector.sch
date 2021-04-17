@@ -572,27 +572,6 @@ F 3 "" H 8200 3975 50  0001 C CNN
 	1    8200 3975
 	1    0    0    -1  
 $EndComp
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J?
-U 1 1 60724385
-P 9900 5150
-AR Path="/5FF20301/60724385" Ref="J?"  Part="1" 
-AR Path="/5FF1FA45/60724385" Ref="J?"  Part="1" 
-AR Path="/60710B43/60724385" Ref="J2"  Part="1" 
-F 0 "J2" H 10130 5146 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 9375 4500 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 9900 5150 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 9900 5150 50  0001 L BNN
-F 4 "JST Sales" H 9900 5150 50  0001 L BNN "MF"
-F 5 "None" H 9900 5150 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 9900 5150 50  0001 L BNN "MP"
-F 7 "None" H 9900 5150 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 9900 5150 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 9900 5150 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 9900 5150 50  0001 C CNN "Digikey"
-	1    9900 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 5650 9200 5650
 Wire Wire Line
@@ -614,6 +593,18 @@ F 1 "GND" H 9205 5602 50  0000 C CNN
 F 2 "" H 9200 5775 50  0001 C CNN
 F 3 "" H 9200 5775 50  0001 C CNN
 	1    9200 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 608CE538
+P 9900 5150
+F 0 "J?" H 10130 5146 50  0000 L CNN
+F 1 "molex_53261-0871" H 10130 5055 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 9900 5150 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 9900 5150 50  0001 L BNN
+F 4 "WM7626CT-ND" H 9900 5150 50  0001 C CNN "Digikey"
+	1    9900 5150
 	1    0    0    -1  
 $EndComp
 Wire Bus Line

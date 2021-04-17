@@ -245,7 +245,7 @@ U 1 1 606E007F
 P 3900 950
 F 0 "H1" H 4000 999 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4000 908 50  0000 L CNN
-F 2 "" H 3900 950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3900 950 50  0001 C CNN
 F 3 "~" H 3900 950 50  0001 C CNN
 	1    3900 950 
 	1    0    0    -1  
@@ -256,7 +256,7 @@ U 1 1 606E05F4
 P 4750 950
 F 0 "H2" H 4850 999 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4850 908 50  0000 L CNN
-F 2 "" H 4750 950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 4750 950 50  0001 C CNN
 F 3 "~" H 4750 950 50  0001 C CNN
 	1    4750 950 
 	1    0    0    -1  
@@ -267,7 +267,7 @@ U 1 1 606E0A81
 P 5600 950
 F 0 "H3" H 5700 999 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5700 908 50  0000 L CNN
-F 2 "" H 5600 950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 5600 950 50  0001 C CNN
 F 3 "~" H 5600 950 50  0001 C CNN
 	1    5600 950 
 	1    0    0    -1  
@@ -278,7 +278,7 @@ U 1 1 606E0EB3
 P 6450 950
 F 0 "H4" H 6550 999 50  0000 L CNN
 F 1 "MountingHole_Pad" H 6550 908 50  0000 L CNN
-F 2 "" H 6450 950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 6450 950 50  0001 C CNN
 F 3 "~" H 6450 950 50  0001 C CNN
 	1    6450 950 
 	1    0    0    -1  

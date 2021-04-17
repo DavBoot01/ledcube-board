@@ -952,27 +952,6 @@ Text Notes 9800 900  0    50   ~ 0
 Row control signals
 Text Notes 9525 4825 0    50   ~ 0
 CPLD user's leds
-$Comp
-L B8B-PH-SM4-TB_LF__SN_:B8B-PH-SM4-TB(LF)(SN) J?
-U 1 1 606E2C57
-P 6200 6875
-AR Path="/5FF20301/606E2C57" Ref="J?"  Part="1" 
-AR Path="/6037AE16/606E2C57" Ref="J?"  Part="1" 
-AR Path="/606D8837/606E2C57" Ref="J12"  Part="1" 
-F 0 "J12" H 6430 6871 50  0000 L CNN
-F 1 "B8B-PH-SM4-TB(LF)(SN)" H 5800 6225 50  0000 L CNN
-F 2 "B8B-PH-SM4-TB(LF)(SN)" H 6200 6875 50  0001 L BNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6200 6875 50  0001 L BNN
-F 4 "JST Sales" H 6200 6875 50  0001 L BNN "MF"
-F 5 "None" H 6200 6875 50  0001 L BNN "PRICE"
-F 6 "BM08B-SRSS-TB_LF__SN_" H 6200 6875 50  0001 L BNN "MP"
-F 7 "None" H 6200 6875 50  0001 L BNN "PACKAGE"
-F 8 "Unavailable" H 6200 6875 50  0001 L BNN "AVAILABILITY"
-F 9 "Connector Header Surface Mount 8 position 0.039 _1.00mm_" H 6200 6875 50  0001 L BNN "DESCRIPTION"
-F 10 "455-1740-1-ND" H 6200 6875 50  0001 C CNN "Digikey"
-	1    6200 6875
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5375 6575 5800 6575
 Wire Wire Line
@@ -1432,4 +1411,16 @@ Text HLabel 1600 4425 0    50   BiDi ~ 0
 GPIO2
 Text HLabel 1600 4525 0    50   BiDi ~ 0
 GPIO3
+$Comp
+L kicad_library:molex_53261-0871 J?
+U 1 1 607C7C43
+P 6200 6875
+F 0 "J?" H 6430 6871 50  0000 L CNN
+F 1 "molex_53261-0871" H 6430 6780 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 6200 6875 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 6200 6875 50  0001 L BNN
+F 4 "WM7626CT-ND" H 6200 6875 50  0001 C CNN "Digikey"
+	1    6200 6875
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
