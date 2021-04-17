@@ -968,8 +968,6 @@ Wire Wire Line
 	5600 7175 5800 7175
 Wire Wire Line
 	5600 7175 5600 7375
-Wire Wire Line
-	5600 7375 5800 7375
 Connection ~ 5600 7175
 Wire Wire Line
 	5600 7375 5600 7525
@@ -1412,10 +1410,10 @@ GPIO2
 Text HLabel 1600 4525 0    50   BiDi ~ 0
 GPIO3
 $Comp
-L kicad_library:molex_53261-0871 J?
+L kicad_library:molex_53261-0871 J12
 U 1 1 607C7C43
 P 6200 6875
-F 0 "J?" H 6430 6871 50  0000 L CNN
+F 0 "J12" H 6430 6871 50  0000 L CNN
 F 1 "molex_53261-0871" H 6430 6780 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 6200 6875 50  0001 L BNN
 F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 6200 6875 50  0001 L BNN
@@ -1423,4 +1421,6 @@ F 4 "WM7626CT-ND" H 6200 6875 50  0001 C CNN "Digikey"
 	1    6200 6875
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5600 7375 5850 7375
 $EndSCHEMATC
