@@ -330,8 +330,6 @@ F 3 "" H 10300 4925 50  0001 C CNN
 $EndComp
 Text GLabel 7075 3400 1    50   Input ~ 0
 SD_3V3
-Wire Wire Line
-	6625 4050 7625 4050
 Connection ~ 6625 4050
 Wire Wire Line
 	6625 3925 6625 4050
@@ -366,17 +364,9 @@ F 4 "P10KBYCT-ND" H 7500 3775 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 Connection ~ 6800 4150
-Wire Wire Line
-	7625 4150 6800 4150
 Connection ~ 6975 4250
-Wire Wire Line
-	7625 4250 6975 4250
 Connection ~ 7150 4350
-Wire Wire Line
-	7625 4350 7150 4350
 Connection ~ 7325 4550
-Wire Wire Line
-	7625 4550 7325 4550
 Wire Wire Line
 	10750 4050 10750 5250
 Wire Wire Line
@@ -392,8 +382,6 @@ F 3 "" H 7125 5350 50  0001 C CNN
 	1    7125 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10225 4050 10750 4050
 Text Label 5550 4750 0    50   ~ 0
 SD_CD
 Text Label 5550 4650 0    50   ~ 0
@@ -412,8 +400,6 @@ Wire Wire Line
 	10300 4850 10300 4925
 Connection ~ 10300 4850
 Wire Wire Line
-	10225 4850 10300 4850
-Wire Wire Line
 	7125 5350 7125 5250
 Wire Wire Line
 	10300 3850 10300 3700
@@ -427,15 +413,6 @@ Wire Wire Line
 Connection ~ 10300 3850
 Wire Wire Line
 	10300 3850 10300 4250
-Wire Wire Line
-	10225 3850 10300 3850
-Wire Wire Line
-	10300 4850 10300 4650
-Wire Wire Line
-	10300 4550 10300 4650
-Connection ~ 10300 4650
-Wire Wire Line
-	10300 4650 10225 4650
 $Comp
 L Device:C C15
 U 1 1 60792BA6
@@ -448,7 +425,7 @@ F 4 "445-9927-1-ND" H 10300 4400 50  0001 C CNN "Digikey"
 	1    10300 4400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10225 4150
+NoConn ~ 9575 4550
 Wire Wire Line
 	6975 4250 6200 4250
 Wire Wire Line
@@ -462,8 +439,6 @@ Wire Wire Line
 	5550 4350 6100 4350
 Connection ~ 6100 4350
 Connection ~ 7500 4650
-Wire Wire Line
-	7625 4650 7500 4650
 $Comp
 L Device:R R?
 U 1 1 60792BD7
@@ -601,22 +576,6 @@ Wire Wire Line
 Connection ~ 6975 3500
 Wire Wire Line
 	6975 3625 6975 3500
-$Comp
-L 1140084168:1140084168 J11
-U 1 1 60792C16
-P 8925 4350
-F 0 "J11" H 8925 5115 50  0000 C CNN
-F 1 "1140084168" H 8925 5024 50  0000 C CNN
-F 2 "AMPHENOL_1140084168" H 8925 4350 50  0001 L BNN
-F 3 "" H 8925 4350 50  0001 L BNN
-F 4 "A" H 8925 4350 50  0001 L BNN "PARTREV"
-F 5 "Amphenol" H 8925 4350 50  0001 L BNN "MANUFACTURER"
-F 6 "1.68mm" H 8925 4350 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 7 "Manufacturer recommendations" H 8925 4350 50  0001 L BNN "STANDARD"
-F 8 "114-00841-68-1-ND" H 8925 4350 50  0001 C CNN "Digikey"
-	1    8925 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 4550 7325 4550
 Connection ~ 6000 4750
@@ -871,4 +830,77 @@ F 4 "541-2779-1-ND" V 2500 4800 50  0001 C CNN "Digikey"
 	1    2500 4800
 	0    1    1    0   
 $EndComp
+$Comp
+L 104031-0811:104031-0811 J11
+U 1 1 60BAA514
+P 8875 4250
+F 0 "J11" H 8875 4915 50  0000 C CNN
+F 1 "104031-0811" H 8875 4824 50  0000 C CNN
+F 2 "MOLEX_104031-0811" H 8875 4250 50  0001 L BNN
+F 3 "https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf" H 8875 4250 50  0001 L BNN
+F 4 "Molex" H 8875 4250 50  0001 L BNN "MANUFACTURER"
+F 5 "1.57mm" H 8875 4250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Manufacturer Recommendations" H 8875 4250 50  0001 L BNN "STANDARD"
+F 7 "B2" H 8875 4250 50  0001 L BNN "PARTREV"
+F 8 "WM6357CT-ND" H 8875 4250 50  0001 C CNN "Digikey"
+	1    8875 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 4050 8175 4050
+Wire Wire Line
+	6800 4150 8175 4150
+Wire Wire Line
+	6975 4250 8175 4250
+Wire Wire Line
+	7150 4350 8175 4350
+Wire Wire Line
+	7750 4550 7750 3500
+Wire Wire Line
+	7750 3500 9700 3500
+Wire Wire Line
+	9700 3500 9700 4050
+Wire Wire Line
+	9700 4050 9575 4050
+Wire Wire Line
+	7325 4550 7750 4550
+Wire Wire Line
+	7875 4650 7875 3350
+Wire Wire Line
+	7875 3350 9825 3350
+Wire Wire Line
+	9825 3350 9825 4250
+Wire Wire Line
+	9825 4250 9575 4250
+Wire Wire Line
+	7500 4650 7875 4650
+Wire Wire Line
+	9575 4450 10025 4450
+Wire Wire Line
+	10025 4450 10025 4050
+Wire Wire Line
+	10025 4050 10750 4050
+Wire Wire Line
+	10300 4550 10300 4850
+Wire Wire Line
+	8050 4850 8050 4650
+Wire Wire Line
+	8050 4650 8175 4650
+Wire Wire Line
+	8050 4850 10300 4850
+Wire Wire Line
+	8050 4650 8050 4550
+Wire Wire Line
+	8050 4550 8175 4550
+Connection ~ 8050 4650
+Wire Wire Line
+	10025 3850 10025 3200
+Wire Wire Line
+	10025 3200 8025 3200
+Wire Wire Line
+	8025 3200 8025 3850
+Wire Wire Line
+	8025 3850 8175 3850
+Wire Wire Line
+	10025 3850 10300 3850
 $EndSCHEMATC
