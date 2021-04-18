@@ -106,8 +106,6 @@ F 3 "" H 6950 6275 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 6150 6950 6275
-Wire Wire Line
-	7250 6150 6950 6150
 $Comp
 L power:GND #PWR?
 U 1 1 60765732
@@ -2341,6 +2339,8 @@ F 4 "WM7626CT-ND" H 10625 3825 50  0001 C CNN "Digikey"
 	1    10625 3825
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6950 6150 7300 6150
 Wire Bus Line
 	8375 1000 8375 3325
 Wire Bus Line
