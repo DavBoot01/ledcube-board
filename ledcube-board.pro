@@ -1,4 +1,4 @@
-update=dom 18 apr 2021, 19:09:29
+update=gio 22 apr 2021, 23:03:14
 version=1
 last_client=kicad
 [general]
@@ -247,11 +247,22 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=layer_selection
+Clearance=0.3
+TrackWidth=0.8
+ViaDiameter=1.2
+ViaDrill=0.8
+uViaDiameter=0.5
+uViaDrill=0.3
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=led_pwr
 Clearance=0.3
 TrackWidth=0.4
-ViaDiameter=1
-ViaDrill=0.5
+ViaDiameter=0.8
+ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
