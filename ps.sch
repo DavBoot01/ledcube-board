@@ -58,9 +58,9 @@ U 1 1 60792AAB
 P 9400 1750
 F 0 "R93" V 9193 1750 50  0000 C CNN
 F 1 "0R" V 9284 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9330 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 9330 1750 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 9400 1750 50  0001 C CNN
-F 4 "541-2779-1-ND" V 9400 1750 50  0001 C CNN "Digikey"
+F 4 "541-10558-1-ND" V 9400 1750 50  0001 C CNN "Digikey"
 	1    9400 1750
 	0    1    1    0   
 $EndComp
@@ -155,18 +155,6 @@ F 4 "P2.7KBZCT-ND" H 7125 1850 50  0001 C CNN "Digikey"
 $EndComp
 Text HLabel 8200 1675 1    50   Input ~ 0
 VCC_3V3
-$Comp
-L Device:R R92
-U 1 1 60792ADE
-P 8450 1750
-F 0 "R92" V 8243 1750 50  0000 C CNN
-F 1 "0R" V 8334 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8380 1750 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 8450 1750 50  0001 C CNN
-F 4 "541-2779-1-ND" V 8450 1750 50  0001 C CNN "Digikey"
-	1    8450 1750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8200 1675 8200 1750
 Wire Wire Line
@@ -903,4 +891,16 @@ Wire Wire Line
 	8025 3850 8175 3850
 Wire Wire Line
 	10025 3850 10300 3850
+$Comp
+L Device:R R92
+U 1 1 60792ADE
+P 8450 1750
+F 0 "R92" V 8243 1750 50  0000 C CNN
+F 1 "0R" V 8334 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8380 1750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 8450 1750 50  0001 C CNN
+F 4 "541-10558-1-ND" V 8450 1750 50  0001 C CNN "Digikey"
+	1    8450 1750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
