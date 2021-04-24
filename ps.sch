@@ -239,7 +239,6 @@ Wire Wire Line
 	3125 1575 3275 1575
 NoConn ~ 3125 2275
 NoConn ~ 3125 2075
-NoConn ~ 3125 2475
 NoConn ~ 3125 1775
 Text Label 3150 1675 0    50   ~ 0
 ESP_I2C_SCL
@@ -909,4 +908,8 @@ Wire Wire Line
 Connection ~ 6000 4750
 Wire Wire Line
 	6000 4750 7125 4750
+Wire Wire Line
+	3125 2475 3550 2475
+Text Label 3310 2475 0    50   ~ 0
+SD_CD
 $EndSCHEMATC
