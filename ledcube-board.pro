@@ -1,4 +1,4 @@
-update=dom 25 apr 2021, 13:33:38
+update=dom 2 mag 2021, 00:14:41
 version=1
 last_client=kicad
 [general]
@@ -265,6 +265,17 @@ ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=pwr_3v3
+Clearance=0.2
+TrackWidth=0.8
+ViaDiameter=1.2
+ViaDrill=0.8
+uViaDiameter=0.5
+uViaDrill=0.3
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
