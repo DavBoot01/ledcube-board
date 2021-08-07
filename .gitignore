@@ -25,4 +25,4 @@ fp-info-cache
 *.xml
 *.csv
 
-ledcube-board-cache.lib
+ledcube8x8x8-board-cache.lib
