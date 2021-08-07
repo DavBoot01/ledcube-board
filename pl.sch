@@ -1103,30 +1103,11 @@ Wire Wire Line
 	4775 3400 6025 3400
 Wire Wire Line
 	1400 3325 1950 3325
-Wire Wire Line
-	1100 950  1825 950 
-Wire Wire Line
-	1100 825  1825 825 
-Text Label 1275 950  0    50   ~ 0
-CPLD_I2C_SDA
-Text Label 1275 825  0    50   ~ 0
-CPLD_I2C_SCL
-Text HLabel 1100 950  0    50   BiDi ~ 0
-I2C_SDA
-Text HLabel 1100 825  0    50   BiDi ~ 0
-I2C_SCL
 Connection ~ 4775 1200
 Wire Wire Line
 	4775 1100 4775 1200
-Text HLabel 4775 1100 1    50   Input ~ 0
+Text HLabel 4680 1100 0    50   Input ~ 0
 VCC_3V3
-Connection ~ 4925 1100
-Wire Wire Line
-	4925 750  5225 750 
-Wire Wire Line
-	4925 1100 4925 750 
-Wire Wire Line
-	5225 750  5225 825 
 Wire Wire Line
 	4775 1200 4775 3400
 Wire Wire Line
@@ -1357,12 +1338,12 @@ $EndComp
 $Comp
 L power:GNDD #PWR045
 U 1 1 60BF3901
-P 3150 7475
-F 0 "#PWR045" H 3150 7225 50  0001 C CNN
-F 1 "GNDD" H 3154 7320 50  0000 C CNN
-F 2 "" H 3150 7475 50  0001 C CNN
-F 3 "" H 3150 7475 50  0001 C CNN
-	1    3150 7475
+P 3150 7500
+F 0 "#PWR045" H 3150 7250 50  0001 C CNN
+F 1 "GNDD" H 3154 7345 50  0000 C CNN
+F 2 "" H 3150 7500 50  0001 C CNN
+F 3 "" H 3150 7500 50  0001 C CNN
+	1    3150 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1385,17 +1366,6 @@ F 1 "GNDD" H 2804 5470 50  0000 C CNN
 F 2 "" H 2800 5625 50  0001 C CNN
 F 3 "" H 2800 5625 50  0001 C CNN
 	1    2800 5625
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR047
-U 1 1 60C2F2D3
-P 5225 825
-F 0 "#PWR047" H 5225 575 50  0001 C CNN
-F 1 "GNDD" H 5229 670 50  0000 C CNN
-F 2 "" H 5225 825 50  0001 C CNN
-F 3 "" H 5225 825 50  0001 C CNN
-	1    5225 825 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1424,4 +1394,120 @@ Connection ~ 5600 7375
 Wire Wire Line
 	1600 7025 1600 7070
 Connection ~ 1600 7025
+Wire Wire Line
+	4775 1100 4680 1100
+Wire Wire Line
+	4925 1100 4925 990 
+Wire Wire Line
+	4925 990  4305 990 
+Connection ~ 4925 1100
+Text Label 4305 990  0    50   ~ 0
+~OE
+Text HLabel 1055 5545 0    50   BiDi ~ 0
+I2C_SCL
+Text HLabel 1055 5670 0    50   BiDi ~ 0
+I2C_SDA
+Text Label 1230 5545 0    50   ~ 0
+CPLD_I2C_SCL
+Text Label 1230 5670 0    50   ~ 0
+CPLD_I2C_SDA
+Wire Wire Line
+	1055 5545 1780 5545
+Wire Wire Line
+	1055 5670 1780 5670
+Text Label 2165 1715 0    50   ~ 0
+~OE
+Wire Wire Line
+	1680 1715 1680 1690
+Connection ~ 1680 1715
+Wire Wire Line
+	1680 1715 2290 1715
+$Comp
+L power:GNDD #PWR069
+U 1 1 614F7CB3
+P 1230 1715
+F 0 "#PWR069" H 1230 1465 50  0001 C CNN
+F 1 "GNDD" H 1234 1560 50  0000 C CNN
+F 2 "" H 1230 1715 50  0001 C CNN
+F 3 "" H 1230 1715 50  0001 C CNN
+	1    1230 1715
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 1715 1230 1715
+$Comp
+L Device:R R?
+U 1 1 614BD8E5
+P 1425 1715
+AR Path="/614BD8E5" Ref="R?"  Part="1" 
+AR Path="/60627ECF/614BD8E5" Ref="R?"  Part="1" 
+AR Path="/5FF20301/614BD8E5" Ref="R?"  Part="1" 
+AR Path="/6037AE16/614BD8E5" Ref="R?"  Part="1" 
+AR Path="/606D8837/614BD8E5" Ref="R124"  Part="1" 
+AR Path="/60783FC7/614BD8E5" Ref="R?"  Part="1" 
+AR Path="/606C046F/614BD8E5" Ref="R?"  Part="1" 
+F 0 "R124" H 1495 1761 50  0000 L CNN
+F 1 "10K" H 1495 1670 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1355 1715 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 1425 1715 50  0001 C CNN
+F 4 "P10KBYCT-ND" H 1425 1715 50  0001 C CNN "Digikey"
+	1    1425 1715
+	0    1    1    0   
+$EndComp
+Text HLabel 1100 1490 0    50   Input ~ 0
+~SYS_RST
+Connection ~ 1265 1490
+Wire Wire Line
+	1265 1490 1100 1490
+Connection ~ 1680 1115
+Wire Wire Line
+	1680 1115 1680 1290
+Wire Wire Line
+	1265 1115 1680 1115
+Wire Wire Line
+	1265 1150 1265 1115
+Wire Wire Line
+	1265 1490 1265 1450
+Wire Wire Line
+	1380 1490 1265 1490
+$Comp
+L Device:R R?
+U 1 1 6144C649
+P 1265 1300
+AR Path="/6144C649" Ref="R?"  Part="1" 
+AR Path="/60627ECF/6144C649" Ref="R?"  Part="1" 
+AR Path="/5FF20301/6144C649" Ref="R?"  Part="1" 
+AR Path="/6037AE16/6144C649" Ref="R?"  Part="1" 
+AR Path="/606D8837/6144C649" Ref="R123"  Part="1" 
+AR Path="/60783FC7/6144C649" Ref="R?"  Part="1" 
+AR Path="/606C046F/6144C649" Ref="R?"  Part="1" 
+F 0 "R123" H 1335 1346 50  0000 L CNN
+F 1 "10K" H 1335 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1195 1300 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 1265 1300 50  0001 C CNN
+F 4 "P10KBYCT-ND" H 1265 1300 50  0001 C CNN "Digikey"
+	1    1265 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1680 1115 1680 1015
+Text HLabel 1680 1015 1    50   Input ~ 0
+VCC_3V3
+$Comp
+L Device:Q_PMOS_GSD Q9
+U 1 1 6141FEBC
+P 1580 1490
+F 0 "Q9" H 1785 1536 50  0000 L CNN
+F 1 "Q_PMOS_GSD" H 1785 1445 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1780 1590 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634" H 1580 1490 50  0001 C CNN
+F 4 "IRLML6401PBFCT-ND" H 1580 1490 50  0001 C CNN "Digikey"
+	1    1580 1490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1680 1715 1575 1715
+Wire Wire Line
+	3150 7475 3150 7500
+Connection ~ 3150 7475
 $EndSCHEMATC

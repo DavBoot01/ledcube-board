@@ -124,7 +124,7 @@ Wire Wire Line
 Text HLabel 5125 2425 2    50   Output ~ 0
 VCC_5V0
 Wire Wire Line
-	6700 3300 7475 3300
+	6700 3300 6975 3300
 Connection ~ 6700 3300
 Text HLabel 7475 3300 2    50   Output ~ 0
 VCC_3V3
@@ -364,4 +364,139 @@ Wire Wire Line
 	6700 4300 7200 4300
 Wire Wire Line
 	7200 4300 7200 4375
+$Comp
+L Device:R R?
+U 1 1 612EA315
+P 4055 5340
+AR Path="/60783FC7/612EA315" Ref="R?"  Part="1" 
+AR Path="/606C046F/612EA315" Ref="R106"  Part="1" 
+F 0 "R106" V 4130 5440 50  0000 C CNN
+F 1 "0R" V 4130 5240 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3985 5340 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 4055 5340 50  0001 C CNN
+F 4 "541-2779-1-ND" V 4055 5340 50  0001 C CNN "Digikey"
+	1    4055 5340
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 612EA31C
+P 3215 5680
+AR Path="/612EA31C" Ref="C?"  Part="1" 
+AR Path="/60627ECF/612EA31C" Ref="C?"  Part="1" 
+AR Path="/5FF20301/612EA31C" Ref="C?"  Part="1" 
+AR Path="/6037AE16/612EA31C" Ref="C?"  Part="1" 
+AR Path="/606D8837/612EA31C" Ref="C?"  Part="1" 
+AR Path="/60783FC7/612EA31C" Ref="C?"  Part="1" 
+AR Path="/606C046F/612EA31C" Ref="C16"  Part="1" 
+F 0 "C16" V 3165 5755 50  0000 L CNN
+F 1 "100nF" V 3165 5380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3253 5530 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3215 5680 50  0001 C CNN
+F 4 "445-8810-1-ND" H 3215 5680 50  0001 C CNN "Digikey"
+	1    3215 5680
+	0    1    1    0   
+$EndComp
+$Comp
+L TL3305AF260QG:TL3305AF260QG U?
+U 1 1 612EA327
+P 3220 5340
+AR Path="/60783FC7/612EA327" Ref="U?"  Part="1" 
+AR Path="/606C046F/612EA327" Ref="U10"  Part="1" 
+F 0 "U10" H 3220 5621 50  0000 C CNN
+F 1 "TL3305AF260QG" H 3220 5530 50  0000 C CNN
+F 2 "SW_TL3305AF260QG" H 3220 5340 50  0001 L BNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 3220 5340 50  0001 L BNN
+F 4 "C" H 3220 5340 50  0001 L BNN "PARTREV"
+F 5 "Manufacturer recommendations" H 3220 5340 50  0001 L BNN "STANDARD"
+F 6 "E-Switch" H 3220 5340 50  0001 L BNN "MANUFACTURER"
+F 7 "3.8mm" H 3220 5340 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 8 "EG5353CT-ND" H 3220 5340 50  0001 C CNN "Digikey"
+	1    3220 5340
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2820 5440 2820 5335
+Wire Wire Line
+	3620 5440 3620 5340
+Wire Wire Line
+	2820 5335 2765 5335
+Wire Wire Line
+	2765 5335 2765 5680
+Wire Wire Line
+	2765 5680 3065 5680
+Connection ~ 2820 5335
+Wire Wire Line
+	2820 5335 2820 5240
+Wire Wire Line
+	3365 5680 3670 5680
+Wire Wire Line
+	3670 5680 3670 5340
+Wire Wire Line
+	3670 5340 3620 5340
+Connection ~ 3620 5340
+Wire Wire Line
+	3620 5340 3620 5240
+Connection ~ 3670 5340
+Wire Wire Line
+	4205 5340 4360 5340
+$Comp
+L power:GNDD #PWR?
+U 1 1 612EA33C
+P 2765 5755
+AR Path="/60783FC7/612EA33C" Ref="#PWR?"  Part="1" 
+AR Path="/606C046F/612EA33C" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 2765 5505 50  0001 C CNN
+F 1 "GNDD" H 2769 5600 50  0000 C CNN
+F 2 "" H 2765 5755 50  0001 C CNN
+F 3 "" H 2765 5755 50  0001 C CNN
+	1    2765 5755
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2765 5680 2765 5755
+Connection ~ 2765 5680
+Wire Wire Line
+	3670 5340 3820 5340
+Text HLabel 4360 5340 2    50   Output ~ 0
+~SYS_RST
+$Comp
+L Device:R R?
+U 1 1 61303CCC
+P 3820 5060
+AR Path="/61303CCC" Ref="R?"  Part="1" 
+AR Path="/60627ECF/61303CCC" Ref="R?"  Part="1" 
+AR Path="/5FF20301/61303CCC" Ref="R?"  Part="1" 
+AR Path="/6037AE16/61303CCC" Ref="R?"  Part="1" 
+AR Path="/606D8837/61303CCC" Ref="R?"  Part="1" 
+AR Path="/60783FC7/61303CCC" Ref="R?"  Part="1" 
+AR Path="/606C046F/61303CCC" Ref="R105"  Part="1" 
+F 0 "R105" H 3890 5106 50  0000 L CNN
+F 1 "10K" H 3890 5015 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3750 5060 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 3820 5060 50  0001 C CNN
+F 4 "P10KBYCT-ND" H 3820 5060 50  0001 C CNN "Digikey"
+	1    3820 5060
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3820 5210 3820 5340
+Connection ~ 3820 5340
+Wire Wire Line
+	3820 5340 3905 5340
+Wire Wire Line
+	3820 4910 3820 4845
+Wire Wire Line
+	3820 4845 3415 4845
+Wire Wire Line
+	6975 3300 6975 2940
+Wire Wire Line
+	6975 2940 7520 2940
+Connection ~ 6975 3300
+Wire Wire Line
+	6975 3300 7475 3300
+Text Label 7200 2940 0    50   ~ 0
+RST_3V3
+Text Label 3415 4845 0    50   ~ 0
+RST_3V3
 $EndSCHEMATC
