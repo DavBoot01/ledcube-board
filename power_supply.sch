@@ -169,7 +169,7 @@ AR Path="/5FF4E7F9/606C68B9" Ref="R?"  Part="1"
 AR Path="/606C046F/606C68B9" Ref="R1"  Part="1" 
 F 0 "R1" H 5570 4046 50  0000 L CNN
 F 1 "121" H 5570 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5430 4000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5500 4000 50  0001 C CNN
 F 4 "311-121HRCT-ND" H 5500 4000 50  0001 C CNN "Digikey"
 	1    5500 4000
@@ -186,7 +186,7 @@ AR Path="/5FF4E7F9/606C68C0" Ref="R?"  Part="1"
 AR Path="/606C046F/606C68C0" Ref="R2"  Part="1" 
 F 0 "R2" H 5570 4346 50  0000 L CNN
 F 1 "42.2" H 5570 4255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5430 4300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5500 4300 50  0001 C CNN
 F 4 " P42.2HCT-ND " H 5500 4300 50  0001 C CNN "Digikey"
 	1    5500 4300
@@ -203,7 +203,7 @@ AR Path="/5FF4E7F9/606C68C7" Ref="R?"  Part="1"
 AR Path="/606C046F/606C68C7" Ref="R3"  Part="1" 
 F 0 "R3" H 5570 4646 50  0000 L CNN
 F 1 "56.2" H 5570 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5430 4600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5500 4600 50  0001 C CNN
 F 4 "311-56.2HRCT-ND" H 5500 4600 50  0001 C CNN "Digikey"
 	1    5500 4600
@@ -246,7 +246,7 @@ AR Path="/5FF4E7F9/606C68DD" Ref="R?"  Part="1"
 AR Path="/606C046F/606C68DD" Ref="R4"  Part="1" 
 F 0 "R4" V 8150 3625 50  0000 L CNN
 F 1 "1K" V 8150 3975 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8030 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8030 3850 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 8100 3850 50  0001 C CNN
 F 4 "RHM1.0KDCT-ND" H 8100 3850 50  0001 C CNN "Digikey"
 	1    8100 3850
@@ -263,7 +263,7 @@ AR Path="/5FF4E7F9/606C68E5" Ref="D?"  Part="1"
 AR Path="/606C046F/606C68E5" Ref="D1"  Part="1" 
 F 0 "D1" V 8600 4000 50  0000 C CNN
 F 1 "GREEN" V 8475 3875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8500 4075 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8500 4075 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 8500 4075 50  0001 C CNN
 F 4 "350-2044-1-ND" H 8500 4075 50  0001 C CNN "Digikey"
 	1    8500 4075
@@ -289,7 +289,7 @@ U 1 1 606C68F4
 P 7700 4075
 F 0 "C6" H 7815 4121 50  0000 L CNN
 F 1 "1uF" H 7815 4030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7738 3925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7738 3925 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A105KA8NNNC.jsp" H 7700 4075 50  0001 C CNN
 F 4 "1276-1102-1-ND" H 7700 4075 50  0001 C CNN "Digikey"
 	1    7700 4075
@@ -372,7 +372,7 @@ AR Path="/60783FC7/612EA315" Ref="R?"  Part="1"
 AR Path="/606C046F/612EA315" Ref="R106"  Part="1" 
 F 0 "R106" V 4130 5440 50  0000 C CNN
 F 1 "0R" V 4130 5240 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3985 5340 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3985 5340 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 4055 5340 50  0001 C CNN
 F 4 "541-2779-1-ND" V 4055 5340 50  0001 C CNN "Digikey"
 	1    4055 5340
@@ -391,7 +391,7 @@ AR Path="/60783FC7/612EA31C" Ref="C?"  Part="1"
 AR Path="/606C046F/612EA31C" Ref="C16"  Part="1" 
 F 0 "C16" V 3165 5755 50  0000 L CNN
 F 1 "100nF" V 3165 5380 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3253 5530 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3253 5530 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3215 5680 50  0001 C CNN
 F 4 "445-8810-1-ND" H 3215 5680 50  0001 C CNN "Digikey"
 	1    3215 5680
@@ -473,7 +473,7 @@ AR Path="/60783FC7/61303CCC" Ref="R?"  Part="1"
 AR Path="/606C046F/61303CCC" Ref="R105"  Part="1" 
 F 0 "R105" H 3890 5106 50  0000 L CNN
 F 1 "10K" H 3890 5015 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3750 5060 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3750 5060 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 3820 5060 50  0001 C CNN
 F 4 "P10KBYCT-ND" H 3820 5060 50  0001 C CNN "Digikey"
 	1    3820 5060

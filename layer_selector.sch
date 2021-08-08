@@ -104,7 +104,7 @@ AR Path="/5FF1FA45/60724289" Ref="R?"  Part="1"
 AR Path="/60710B43/60724289" Ref="R5"  Part="1" 
 F 0 "R5" H 3120 1696 50  0000 L CNN
 F 1 "10K" H 3120 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2980 1650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 3050 1650 50  0001 C CNN
 F 4 "P10KADCT-ND" H 3050 1650 50  0001 C CNN "Digikey"
 	1    3050 1650
@@ -153,7 +153,7 @@ AR Path="/5FF1FA45/607242A2" Ref="R?"  Part="1"
 AR Path="/60710B43/607242A2" Ref="R6"  Part="1" 
 F 0 "R6" H 3145 3246 50  0000 L CNN
 F 1 "10K" H 3145 3155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3005 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3005 3200 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 3075 3200 50  0001 C CNN
 F 4 "P10KADCT-ND" H 3075 3200 50  0001 C CNN "Digikey"
 	1    3075 3200
@@ -204,7 +204,7 @@ AR Path="/5FF1FA45/607242BC" Ref="R?"  Part="1"
 AR Path="/60710B43/607242BC" Ref="R7"  Part="1" 
 F 0 "R7" H 3145 4621 50  0000 L CNN
 F 1 "10K" H 3145 4530 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3005 4575 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3005 4575 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 3075 4575 50  0001 C CNN
 F 4 "P10KADCT-ND" H 3075 4575 50  0001 C CNN "Digikey"
 	1    3075 4575
@@ -274,7 +274,7 @@ AR Path="/5FF1FA45/607242E0" Ref="R?"  Part="1"
 AR Path="/60710B43/607242E0" Ref="R8"  Part="1" 
 F 0 "R8" H 5720 1721 50  0000 L CNN
 F 1 "10K" H 5720 1630 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5580 1675 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5580 1675 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5650 1675 50  0001 C CNN
 F 4 "P10KADCT-ND" H 5650 1675 50  0001 C CNN "Digikey"
 	1    5650 1675
@@ -323,7 +323,7 @@ AR Path="/5FF1FA45/607242F9" Ref="R?"  Part="1"
 AR Path="/60710B43/607242F9" Ref="R9"  Part="1" 
 F 0 "R9" H 5745 3271 50  0000 L CNN
 F 1 "10K" H 5745 3180 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5605 3225 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5605 3225 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5675 3225 50  0001 C CNN
 F 4 "P10KADCT-ND" H 5675 3225 50  0001 C CNN "Digikey"
 	1    5675 3225
@@ -378,7 +378,7 @@ AR Path="/5FF1FA45/60724315" Ref="R?"  Part="1"
 AR Path="/60710B43/60724315" Ref="R10"  Part="1" 
 F 0 "R10" H 5745 4646 50  0000 L CNN
 F 1 "10K" H 5745 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5605 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5605 4600 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5675 4600 50  0001 C CNN
 F 4 "P10KADCT-ND" H 5675 4600 50  0001 C CNN "Digikey"
 	1    5675 4600
@@ -419,7 +419,7 @@ AR Path="/5FF1FA45/6072432A" Ref="R?"  Part="1"
 AR Path="/60710B43/6072432A" Ref="R12"  Part="1" 
 F 0 "R12" H 8270 3246 50  0000 L CNN
 F 1 "10K" H 8270 3155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8130 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8130 3200 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 8200 3200 50  0001 C CNN
 F 4 "P10KADCT-ND" H 8200 3200 50  0001 C CNN "Digikey"
 	1    8200 3200
@@ -468,7 +468,7 @@ AR Path="/5FF1FA45/60724343" Ref="R?"  Part="1"
 AR Path="/60710B43/60724343" Ref="R11"  Part="1" 
 F 0 "R11" H 8245 1696 50  0000 L CNN
 F 1 "10K" H 8245 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8105 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8105 1650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 8175 1650 50  0001 C CNN
 F 4 "P10KADCT-ND" H 8175 1650 50  0001 C CNN "Digikey"
 	1    8175 1650

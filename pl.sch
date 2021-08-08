@@ -309,7 +309,7 @@ AR Path="/6037AE16/606E2B1D" Ref="R?"  Part="1"
 AR Path="/606D8837/606E2B1D" Ref="R94"  Part="1" 
 F 0 "R94" H 4545 6321 50  0000 L CNN
 F 1 "10K" H 4545 6230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4405 6275 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4405 6275 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4475 6275 50  0001 C CNN
 F 4 "P10KBYCT-ND" H 4475 6275 50  0001 C CNN "Digikey"
 	1    4475 6275
@@ -326,7 +326,7 @@ AR Path="/6037AE16/606E2B24" Ref="R?"  Part="1"
 AR Path="/606D8837/606E2B24" Ref="R98"  Part="1" 
 F 0 "R98" V 9650 4025 50  0000 L CNN
 F 1 "1K" V 9650 4375 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9530 4250 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9600 4250 50  0001 C CNN
 F 4 "RHM1.0KDCT-ND" H 9600 4250 50  0001 C CNN "Digikey"
 	1    9600 4250
@@ -355,7 +355,7 @@ AR Path="/6037AE16/606E2B31" Ref="R?"  Part="1"
 AR Path="/606D8837/606E2B31" Ref="R95"  Part="1" 
 F 0 "R95" H 4845 6321 50  0000 L CNN
 F 1 "10K" H 4845 6230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4705 6275 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4705 6275 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4775 6275 50  0001 C CNN
 F 4 "P10KBYCT-ND" H 4775 6275 50  0001 C CNN "Digikey"
 	1    4775 6275
@@ -372,7 +372,7 @@ AR Path="/6037AE16/606E2B38" Ref="R?"  Part="1"
 AR Path="/606D8837/606E2B38" Ref="R96"  Part="1" 
 F 0 "R96" H 5145 6321 50  0000 L CNN
 F 1 "10K" H 5145 6230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5005 6275 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5005 6275 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5075 6275 50  0001 C CNN
 F 4 "P10KBYCT-ND" H 5075 6275 50  0001 C CNN "Digikey"
 	1    5075 6275
@@ -389,7 +389,7 @@ AR Path="/6037AE16/606E2B3F" Ref="R?"  Part="1"
 AR Path="/606D8837/606E2B3F" Ref="R97"  Part="1" 
 F 0 "R97" H 5445 6321 50  0000 L CNN
 F 1 "10K" H 5445 6230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5305 6275 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5305 6275 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5375 6275 50  0001 C CNN
 F 4 "P10KBYCT-ND" H 5375 6275 50  0001 C CNN "Digikey"
 	1    5375 6275
@@ -406,7 +406,7 @@ AR Path="/6037AE16/606E2B46" Ref="R?"  Part="1"
 AR Path="/606D8837/606E2B46" Ref="R99"  Part="1" 
 F 0 "R99" V 9650 4150 50  0000 L CNN
 F 1 "1K" V 9650 4500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4375 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9530 4375 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9600 4375 50  0001 C CNN
 F 4 "RHM1.0KDCT-ND" H 9600 4375 50  0001 C CNN "Digikey"
 	1    9600 4375
@@ -423,7 +423,7 @@ AR Path="/6037AE16/606E2B4D" Ref="R?"  Part="1"
 AR Path="/606D8837/606E2B4D" Ref="R100"  Part="1" 
 F 0 "R100" V 9650 4275 50  0000 L CNN
 F 1 "1K" V 9650 4625 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9530 4500 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9600 4500 50  0001 C CNN
 F 4 "RHM1.0KDCT-ND" H 9600 4500 50  0001 C CNN "Digikey"
 	1    9600 4500
@@ -440,7 +440,7 @@ AR Path="/6037AE16/606E2B54" Ref="R?"  Part="1"
 AR Path="/606D8837/606E2B54" Ref="R101"  Part="1" 
 F 0 "R101" V 9650 4400 50  0000 L CNN
 F 1 "1K" V 9650 4750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4625 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9530 4625 50  0001 C CNN
 F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9600 4625 50  0001 C CNN
 F 4 "RHM1.0KDCT-ND" H 9600 4625 50  0001 C CNN "Digikey"
 	1    9600 4625
@@ -460,7 +460,7 @@ U 1 1 606E2B5F
 P 10150 4250
 F 0 "D2" H 10275 4200 50  0000 C CNN
 F 1 "RED" H 9875 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 10150 4250 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 10150 4250 50  0001 C CNN
 F 4 "350-2038-1-ND" H 10150 4250 50  0001 C CNN "Digikey"
 	1    10150 4250
@@ -472,7 +472,7 @@ U 1 1 606E2B66
 P 10150 4375
 F 0 "D3" H 10275 4325 50  0000 C CNN
 F 1 "GREEN" H 9850 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4375 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 10150 4375 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 10150 4375 50  0001 C CNN
 F 4 "350-2044-1-ND" H 10150 4375 50  0001 C CNN "Digikey"
 	1    10150 4375
@@ -484,7 +484,7 @@ U 1 1 606E2B6D
 P 10150 4500
 F 0 "D4" H 10275 4450 50  0000 C CNN
 F 1 "ORANGE" H 9825 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 10150 4500 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 10150 4500 50  0001 C CNN
 F 4 "350-2040-1-ND" H 10150 4500 50  0001 C CNN "Digikey"
 	1    10150 4500
@@ -496,7 +496,7 @@ U 1 1 606E2B74
 P 10150 4625
 F 0 "D5" H 10275 4575 50  0000 C CNN
 F 1 "ORANGE" H 9825 4575 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4625 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 10150 4625 50  0001 C CNN
 F 3 "http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/SMT_selector_guide.pdf" H 10150 4625 50  0001 C CNN
 F 4 "350-2040-1-ND" H 10150 4625 50  0001 C CNN "Digikey"
 	1    10150 4625
@@ -635,7 +635,7 @@ AR Path="/6037AE16/606E2BCC" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2BCC" Ref="C19"  Part="1" 
 F 0 "C19" H 2425 7325 50  0000 L CNN
 F 1 "10nF" H 2350 7225 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 7125 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2738 7125 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2700 7275 50  0001 C CNN
 F 4 "445-9897-1-ND" H 2700 7275 50  0001 C CNN "Digikey"
 	1    2700 7275
@@ -652,7 +652,7 @@ AR Path="/6037AE16/606E2BD3" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2BD3" Ref="C18"  Part="1" 
 F 0 "C18" H 875 6875 50  0000 L CNN
 F 1 "10nF" H 800 6775 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1188 6675 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 6675 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1150 6825 50  0001 C CNN
 F 4 "445-9897-1-ND" H 1150 6825 50  0001 C CNN "Digikey"
 	1    1150 6825
@@ -669,7 +669,7 @@ AR Path="/6037AE16/606E2BDA" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2BDA" Ref="C25"  Part="1" 
 F 0 "C25" H 8225 5925 50  0000 L CNN
 F 1 "10nF" H 8175 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8538 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8538 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8500 5875 50  0001 C CNN
 F 4 "445-9897-1-ND" H 8500 5875 50  0001 C CNN "Digikey"
 	1    8500 5875
@@ -686,7 +686,7 @@ AR Path="/6037AE16/606E2BE1" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2BE1" Ref="C26"  Part="1" 
 F 0 "C26" H 8675 5925 50  0000 L CNN
 F 1 "10nF" H 8650 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8988 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8988 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8950 5875 50  0001 C CNN
 F 4 "445-9897-1-ND" H 8950 5875 50  0001 C CNN "Digikey"
 	1    8950 5875
@@ -703,7 +703,7 @@ AR Path="/6037AE16/606E2BE8" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2BE8" Ref="C30"  Part="1" 
 F 0 "C30" H 10425 5925 50  0000 L CNN
 F 1 "100nF" H 10350 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10713 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10713 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 10675 5875 50  0001 C CNN
 F 4 "445-8810-1-ND" H 10675 5875 50  0001 C CNN "Digikey"
 	1    10675 5875
@@ -720,7 +720,7 @@ AR Path="/6037AE16/606E2BEF" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2BEF" Ref="C31"  Part="1" 
 F 0 "C31" H 10850 5925 50  0000 L CNN
 F 1 "100nF" H 10775 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11138 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11138 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 11100 5875 50  0001 C CNN
 F 4 "445-8810-1-ND" H 11100 5875 50  0001 C CNN "Digikey"
 	1    11100 5875
@@ -769,7 +769,7 @@ AR Path="/6037AE16/606E2C0E" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2C0E" Ref="C27"  Part="1" 
 F 0 "C27" H 9125 5925 50  0000 L CNN
 F 1 "10nF" H 9100 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9438 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9400 5875 50  0001 C CNN
 F 4 "445-9897-1-ND" H 9400 5875 50  0001 C CNN "Digikey"
 	1    9400 5875
@@ -792,7 +792,7 @@ AR Path="/6037AE16/606E2C18" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2C18" Ref="C20"  Part="1" 
 F 0 "C20" H 7775 5925 50  0000 L CNN
 F 1 "10nF" H 7725 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8088 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8088 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8050 5875 50  0001 C CNN
 F 4 "445-9897-1-ND" H 8050 5875 50  0001 C CNN "Digikey"
 	1    8050 5875
@@ -817,7 +817,7 @@ AR Path="/6037AE16/606E2C23" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2C23" Ref="C28"  Part="1" 
 F 0 "C28" H 9575 5925 50  0000 L CNN
 F 1 "100nF" H 9500 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9863 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9863 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9825 5875 50  0001 C CNN
 F 4 "445-8810-1-ND" H 9825 5875 50  0001 C CNN "Digikey"
 	1    9825 5875
@@ -834,7 +834,7 @@ AR Path="/6037AE16/606E2C2A" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2C2A" Ref="C29"  Part="1" 
 F 0 "C29" H 10000 5925 50  0000 L CNN
 F 1 "100nF" H 9925 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10288 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10288 5725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 10250 5875 50  0001 C CNN
 F 4 "445-8810-1-ND" H 10250 5875 50  0001 C CNN "Digikey"
 	1    10250 5875
@@ -956,7 +956,7 @@ AR Path="/6037AE16/606E2C91" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2C91" Ref="C21"  Part="1" 
 F 0 "C21" V 8075 750 50  0000 L CNN
 F 1 "100nF" V 8075 375 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8163 525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8163 525 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8125 675 50  0001 C CNN
 F 4 "445-8810-1-ND" H 8125 675 50  0001 C CNN "Digikey"
 	1    8125 675 
@@ -973,7 +973,7 @@ AR Path="/6037AE16/606E2C98" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2C98" Ref="C22"  Part="1" 
 F 0 "C22" V 8075 1100 50  0000 L CNN
 F 1 "100nF" V 8075 725 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8163 875 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8163 875 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8125 1025 50  0001 C CNN
 F 4 "445-8810-1-ND" H 8125 1025 50  0001 C CNN "Digikey"
 	1    8125 1025
@@ -1023,7 +1023,7 @@ AR Path="/6037AE16/606E2CB8" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2CB8" Ref="C23"  Part="1" 
 F 0 "C23" V 8075 2950 50  0000 L CNN
 F 1 "100nF" V 8075 2575 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8163 2725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8163 2725 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8125 2875 50  0001 C CNN
 F 4 "445-8810-1-ND" H 8125 2875 50  0001 C CNN "Digikey"
 	1    8125 2875
@@ -1040,7 +1040,7 @@ AR Path="/6037AE16/606E2CBF" Ref="C?"  Part="1"
 AR Path="/606D8837/606E2CBF" Ref="C24"  Part="1" 
 F 0 "C24" V 8075 3300 50  0000 L CNN
 F 1 "100nF" V 8075 2925 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8163 3075 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8163 3075 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8125 3225 50  0001 C CNN
 F 4 "445-8810-1-ND" H 8125 3225 50  0001 C CNN "Digikey"
 	1    8125 3225
@@ -1448,7 +1448,7 @@ AR Path="/60783FC7/614BD8E5" Ref="R?"  Part="1"
 AR Path="/606C046F/614BD8E5" Ref="R?"  Part="1" 
 F 0 "R124" H 1495 1761 50  0000 L CNN
 F 1 "10K" H 1495 1670 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1355 1715 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1355 1715 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 1425 1715 50  0001 C CNN
 F 4 "P10KBYCT-ND" H 1425 1715 50  0001 C CNN "Digikey"
 	1    1425 1715
@@ -1483,7 +1483,7 @@ AR Path="/60783FC7/6144C649" Ref="R?"  Part="1"
 AR Path="/606C046F/6144C649" Ref="R?"  Part="1" 
 F 0 "R123" H 1335 1346 50  0000 L CNN
 F 1 "10K" H 1335 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1195 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1195 1300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 1265 1300 50  0001 C CNN
 F 4 "P10KBYCT-ND" H 1265 1300 50  0001 C CNN "Digikey"
 	1    1265 1300
