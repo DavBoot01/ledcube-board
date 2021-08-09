@@ -195,17 +195,17 @@ Wire Wire Line
 Wire Wire Line
 	10200 2325 9575 2325
 Text Label 9575 2125 0    50   ~ 0
-~DATA_OE_5V5
+~DATA_OE_5V0
 Text Label 9575 2225 0    50   ~ 0
-DATA_LE_5V5
+DATA_LE_5V0
 Text Label 9575 2325 0    50   ~ 0
-DATA_CLK_5V5
+DATA_CLK_5V0
 Text HLabel 10200 2125 2    50   Input ~ 0
-~DATA_OE_5V5
+~DATA_OE_5V0
 Text HLabel 10200 2225 2    50   Input ~ 0
-DATA_LE_5V5
+DATA_LE_5V0
 Text HLabel 10200 2325 2    50   Input ~ 0
-DATA_CLK_5V5
+DATA_CLK_5V0
 Wire Wire Line
 	6025 4200 5400 4200
 Wire Wire Line
@@ -213,11 +213,11 @@ Wire Wire Line
 Wire Wire Line
 	6025 4400 5400 4400
 Text Label 5400 4200 0    50   ~ 0
-~DATA_OE_5V5
+~DATA_OE_5V0
 Text Label 5400 4300 0    50   ~ 0
-DATA_LE_5V5
+DATA_LE_5V0
 Text Label 5400 4400 0    50   ~ 0
-DATA_CLK_5V5
+DATA_CLK_5V0
 Wire Wire Line
 	6025 3700 5400 3700
 Wire Wire Line
