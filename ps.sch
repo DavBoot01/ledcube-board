@@ -169,11 +169,11 @@ Text GLabel 2790 5850 1    50   Input ~ 0
 SD_3V3
 Text GLabel 2245 6010 1    50   Input ~ 0
 SD_3V3
-Text Label 5975 6990 2    50   ~ 0
+Text Label 5885 6990 2    50   ~ 0
 SD_CD
-Text Label 5680 6790 0    50   ~ 0
+Text Label 5650 6790 0    50   ~ 0
 SD_CMD
-Text Label 5695 6590 0    50   ~ 0
+Text Label 5650 6590 0    50   ~ 0
 SD_CLK
 Text Label 1105 6890 0    50   ~ 0
 SD_DAT3
@@ -877,60 +877,44 @@ Wire Wire Line
 $Comp
 L Device:R R113
 U 1 1 616A3A59
-P 4915 6590
-F 0 "R113" V 4865 6765 50  0000 C CNN
-F 1 "0R" V 4915 6590 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4845 6590 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 4915 6590 50  0001 C CNN
-F 4 "541-2779-1-ND" V 4915 6590 50  0001 C CNN "Digikey"
-	1    4915 6590
+P 5260 6590
+F 0 "R113" V 5210 6765 50  0000 C CNN
+F 1 "0R" V 5260 6590 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5190 6590 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 5260 6590 50  0001 C CNN
+F 4 "541-2779-1-ND" V 5260 6590 50  0001 C CNN "Digikey"
+	1    5260 6590
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R114
 U 1 1 616A3A60
-P 4925 6790
-F 0 "R114" V 4875 6965 50  0000 C CNN
-F 1 "0R" V 4925 6790 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4855 6790 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 4925 6790 50  0001 C CNN
-F 4 "541-2779-1-ND" V 4925 6790 50  0001 C CNN "Digikey"
-	1    4925 6790
+P 5270 6790
+F 0 "R114" V 5220 6965 50  0000 C CNN
+F 1 "0R" V 5270 6790 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5200 6790 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 5270 6790 50  0001 C CNN
+F 4 "541-2779-1-ND" V 5270 6790 50  0001 C CNN "Digikey"
+	1    5270 6790
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4675 6790 4775 6790
 Connection ~ 4675 6790
-Wire Wire Line
-	4540 6590 4765 6590
 Connection ~ 4540 6590
 $Comp
 L Device:R R115
 U 1 1 616E52FE
-P 4925 6990
-F 0 "R115" V 4875 7165 50  0000 C CNN
-F 1 "0R" V 4925 6990 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4855 6990 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 4925 6990 50  0001 C CNN
-F 4 "541-2779-1-ND" V 4925 6990 50  0001 C CNN "Digikey"
-	1    4925 6990
+P 5270 6990
+F 0 "R115" V 5220 7165 50  0000 C CNN
+F 1 "0R" V 5270 6990 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5200 6990 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 5270 6990 50  0001 C CNN
+F 4 "541-2779-1-ND" V 5270 6990 50  0001 C CNN "Digikey"
+	1    5270 6990
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4540 6990 4775 6990
 Connection ~ 4540 6990
 Wire Wire Line
-	5075 6990 5975 6990
-Wire Wire Line
-	5420 6095 5420 6590
-Wire Wire Line
-	5420 6095 5460 6095
-Wire Wire Line
-	5420 6590 5965 6590
-Wire Wire Line
-	5275 5895 5275 6790
-Wire Wire Line
-	5275 5895 5460 5895
+	5420 6990 5980 6990
 $Comp
 L Device:R R?
 U 1 1 6101CFA1
@@ -1460,12 +1444,7 @@ Wire Wire Line
 	10835 3910 10510 3910
 Text Label 10540 3910 0    50   ~ 0
 R_nTRST
-Wire Wire Line
-	5075 6790 5275 6790
 Connection ~ 4800 1465
-Connection ~ 5275 6790
-Wire Wire Line
-	5275 6790 5975 6790
 $Comp
 L power:GNDD #PWR065
 U 1 1 616114C3
@@ -1613,8 +1592,29 @@ Wire Wire Line
 	2175 6790 1810 6790
 Connection ~ 2175 6790
 Wire Wire Line
-	5420 6590 5065 6590
-Connection ~ 5420 6590
-Wire Wire Line
 	4925 2810 4835 2810
+Wire Wire Line
+	5420 6790 5980 6790
+Wire Wire Line
+	5410 6590 5980 6590
+Wire Wire Line
+	4540 6590 4835 6590
+Wire Wire Line
+	4675 6790 4980 6790
+Wire Wire Line
+	4540 6990 5120 6990
+Wire Wire Line
+	4835 5895 4835 6590
+Wire Wire Line
+	4835 5895 5460 5895
+Connection ~ 4835 6590
+Wire Wire Line
+	4835 6590 5110 6590
+Wire Wire Line
+	4980 6095 4980 6790
+Wire Wire Line
+	4980 6095 5460 6095
+Connection ~ 4980 6790
+Wire Wire Line
+	4980 6790 5120 6790
 $EndSCHEMATC
