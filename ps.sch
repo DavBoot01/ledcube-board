@@ -165,7 +165,7 @@ Text Label 6430 4195 2    50   ~ 0
 SD_CMD
 Wire Wire Line
 	6430 4195 6005 4195
-Text GLabel 2790 5850 1    50   Input ~ 0
+Text GLabel 2675 5845 1    50   Input ~ 0
 SD_3V3
 Text GLabel 2245 6010 1    50   Input ~ 0
 SD_3V3
@@ -182,17 +182,17 @@ SD_DAT1
 Text Label 1105 6590 0    50   ~ 0
 SD_DAT0
 Wire Wire Line
-	2790 6000 2790 5850
+	2675 5995 2675 5920
 $Comp
 L Device:C C15
 U 1 1 60792BA6
-P 2790 6150
-F 0 "C15" H 2865 6275 50  0000 L CNN
-F 1 "4.7uF" H 2840 6050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2828 6000 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/spec/mlccspec_automotive_epoxy_en.pdf?ref_disty=digikey" H 2790 6150 50  0001 C CNN
-F 4 "445-9927-1-ND" H 2790 6150 50  0001 C CNN "Digikey"
-	1    2790 6150
+P 2675 6145
+F 0 "C15" H 2695 6295 50  0000 L CNN
+F 1 "4.7uF" H 2675 6025 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2713 5995 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/spec/mlccspec_automotive_epoxy_en.pdf?ref_disty=digikey" H 2675 6145 50  0001 C CNN
+F 4 "445-9927-1-ND" H 2675 6145 50  0001 C CNN "Digikey"
+	1    2675 6145
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4260 7090
@@ -642,24 +642,17 @@ F 3 "" H 2800 7255 50  0001 C CNN
 	1    2800 7255
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2860 6390 2790 6390
-Wire Wire Line
-	2790 6390 2790 6300
 $Comp
 L power:GNDD #PWR037
 U 1 1 612B1C03
-P 2790 6435
-F 0 "#PWR037" H 2790 6185 50  0001 C CNN
-F 1 "GNDD" H 2680 6415 50  0000 C CNN
-F 2 "" H 2790 6435 50  0001 C CNN
-F 3 "" H 2790 6435 50  0001 C CNN
-	1    2790 6435
+P 2675 6430
+F 0 "#PWR037" H 2675 6180 50  0001 C CNN
+F 1 "GNDD" H 2785 6400 50  0000 C CNN
+F 2 "" H 2675 6430 50  0001 C CNN
+F 3 "" H 2675 6430 50  0001 C CNN
+	1    2675 6430
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2790 6435 2790 6390
-Connection ~ 2790 6390
 $Comp
 L Device:R R?
 U 1 1 60792B77
@@ -1617,4 +1610,13 @@ Wire Wire Line
 Connection ~ 4980 6790
 Wire Wire Line
 	4980 6790 5120 6790
+Wire Wire Line
+	2675 6295 2675 6430
+Wire Wire Line
+	2860 5920 2675 5920
+Connection ~ 2675 5920
+Wire Wire Line
+	2675 5920 2675 5845
+Wire Wire Line
+	2860 5920 2860 6390
 $EndSCHEMATC
