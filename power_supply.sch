@@ -60,9 +60,9 @@ U 1 1 606C6885
 P 5075 4300
 F 0 "C2" H 5193 4346 50  0000 L CNN
 F 1 "10uF" H 5193 4255 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder" H 5113 4150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5113 4150 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/T491A106M010AT.pdf" H 5075 4300 50  0001 C CNN
-F 4 "399-3686-1-ND" H 5075 4300 50  0001 C CNN "Digikey"
+F 4 "P19649CT-ND" H 5075 4300 50  0001 C CNN "Digikey"
 	1    5075 4300
 	1    0    0    -1  
 $EndComp
@@ -123,9 +123,9 @@ U 1 1 606C68A9
 P 3950 3375
 F 0 "C1" H 4068 3421 50  0000 L CNN
 F 1 "1000uF" H 4068 3330 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_16x22" H 3988 3225 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 3988 3225 50  0001 C CNN
 F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf" H 3950 3375 50  0001 C CNN
-F 4 "1189-3574-1-ND" H 3950 3375 50  0001 C CNN "Digikey"
+F 4 "493-12786-1-ND" H 3950 3375 50  0001 C CNN "Digikey"
 	1    3950 3375
 	1    0    0    -1  
 $EndComp
@@ -203,9 +203,9 @@ U 1 1 606C68CF
 P 6200 4075
 F 0 "C3" H 6318 4121 50  0000 L CNN
 F 1 "150uF" H 6318 4030 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_10x10" H 6238 3925 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 6238 3925 50  0001 C CNN
 F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 6200 4075 50  0001 C CNN
-F 4 "493-2227-1-ND" H 6200 4075 50  0001 C CNN "Digikey"
+F 4 "493-11619-1-ND" H 6200 4075 50  0001 C CNN "Digikey"
 	1    6200 4075
 	1    0    0    -1  
 $EndComp
@@ -215,9 +215,9 @@ U 1 1 606C68D6
 P 7200 4075
 F 0 "C5" H 7318 4121 50  0000 L CNN
 F 1 "10uF" H 7318 4030 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder" H 7238 3925 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7238 3925 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/T491A106M010AT.pdf" H 7200 4075 50  0001 C CNN
-F 4 "399-3686-1-ND" H 7200 4075 50  0001 C CNN "Digikey"
+F 4 "P19649CT-ND" H 7200 4075 50  0001 C CNN "Digikey"
 	1    7200 4075
 	1    0    0    -1  
 $EndComp
@@ -288,9 +288,9 @@ U 1 1 606C68FB
 P 6700 4075
 F 0 "C4" H 6818 4121 50  0000 L CNN
 F 1 "100uF" H 6818 4030 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 6738 3925 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 6738 3925 50  0001 C CNN
 F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=mva" H 6700 4075 50  0001 C CNN
-F 4 "565-2057-1-ND" H 6700 4075 50  0001 C CNN "Digikey"
+F 4 "399-6660-1-ND" H 6700 4075 50  0001 C CNN "Digikey"
 	1    6700 4075
 	1    0    0    -1  
 $EndComp
