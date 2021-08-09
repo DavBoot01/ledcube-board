@@ -647,6 +647,10 @@ Wire Wire Line
 Wire Wire Line
 	1240 5785 1240 4475
 Connection ~ 1240 4475
+Wire Wire Line
+	2345 4770 2450 4770
+Wire Wire Line
+	2450 4770 2450 4735
 Wire Bus Line
 	7225 3375 7225 4250
 Wire Bus Line

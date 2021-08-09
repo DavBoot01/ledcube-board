@@ -51,43 +51,15 @@ Wire Wire Line
 Wire Wire Line
 	3550 5225 3800 5225
 Wire Wire Line
-	4475 6125 4475 6000
-Wire Wire Line
-	4475 6000 4775 6000
-Wire Wire Line
-	5375 6000 5375 6125
-Wire Wire Line
-	4775 6125 4775 6000
-Connection ~ 4775 6000
-Wire Wire Line
-	4775 6000 4925 6000
-Wire Wire Line
-	5075 6125 5075 6000
-Connection ~ 5075 6000
-Wire Wire Line
-	5075 6000 5375 6000
-Wire Wire Line
-	4925 6000 4925 5925
-Connection ~ 4925 6000
-Wire Wire Line
-	4925 6000 5075 6000
-Wire Wire Line
-	5375 6425 5375 6575
-Wire Wire Line
-	5075 6425 5075 6675
-Wire Wire Line
-	4775 6425 4775 6775
-Wire Wire Line
-	4475 6425 4475 6975
-Text Label 5450 6575 0    50   ~ 0
+	4810 5815 4810 5740
+Text Label 5040 6550 0    50   ~ 0
 TCK
-Text Label 5450 6675 0    50   ~ 0
+Text Label 5035 6650 0    50   ~ 0
 TDO
-Text Label 5450 6775 0    50   ~ 0
+Text Label 5040 6945 0    50   ~ 0
 TMS
-Text Label 5450 6975 0    50   ~ 0
+Text Label 5040 7060 0    50   ~ 0
 TDI
-NoConn ~ 5800 6875
 Wire Wire Line
 	8050 2000 7425 2000
 Wire Wire Line
@@ -301,18 +273,18 @@ LAYER8_SEL_3V3
 $Comp
 L Device:R R?
 U 1 1 606E2B1D
-P 4475 6275
+P 4605 6100
 AR Path="/606E2B1D" Ref="R?"  Part="1" 
 AR Path="/60627ECF/606E2B1D" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B1D" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B1D" Ref="R?"  Part="1" 
 AR Path="/606D8837/606E2B1D" Ref="R94"  Part="1" 
-F 0 "R94" H 4545 6321 50  0000 L CNN
-F 1 "10K" H 4545 6230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4405 6275 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4475 6275 50  0001 C CNN
-F 4 "P10KBYCT-ND" H 4475 6275 50  0001 C CNN "Digikey"
-	1    4475 6275
+F 0 "R94" V 4650 6210 50  0000 L CNN
+F 1 "10K" V 4655 5845 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4535 6100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4605 6100 50  0001 C CNN
+F 4 "P10KBYCT-ND" H 4605 6100 50  0001 C CNN "Digikey"
+	1    4605 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -332,9 +304,7 @@ F 4 "RHM1.0KDCT-ND" H 9600 4250 50  0001 C CNN "Digikey"
 	1    9600 4250
 	0    -1   -1   0   
 $EndComp
-Text HLabel 4925 5925 1    50   Input ~ 0
-VCC_3V3
-Text HLabel 5725 6325 1    50   Input ~ 0
+Text HLabel 4810 5740 1    50   Input ~ 0
 VCC_3V3
 Text HLabel 7525 800  2    50   Input ~ 0
 VCC_3V3
@@ -346,53 +316,36 @@ Text HLabel 7525 900  2    50   Input ~ 0
 VCC_5V0
 $Comp
 L Device:R R?
-U 1 1 606E2B31
-P 4775 6275
-AR Path="/606E2B31" Ref="R?"  Part="1" 
-AR Path="/60627ECF/606E2B31" Ref="R?"  Part="1" 
-AR Path="/5FF20301/606E2B31" Ref="R?"  Part="1" 
-AR Path="/6037AE16/606E2B31" Ref="R?"  Part="1" 
-AR Path="/606D8837/606E2B31" Ref="R95"  Part="1" 
-F 0 "R95" H 4845 6321 50  0000 L CNN
-F 1 "10K" H 4845 6230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4705 6275 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4775 6275 50  0001 C CNN
-F 4 "P10KBYCT-ND" H 4775 6275 50  0001 C CNN "Digikey"
-	1    4775 6275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 606E2B38
-P 5075 6275
+P 4880 6100
 AR Path="/606E2B38" Ref="R?"  Part="1" 
 AR Path="/60627ECF/606E2B38" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B38" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B38" Ref="R?"  Part="1" 
 AR Path="/606D8837/606E2B38" Ref="R96"  Part="1" 
-F 0 "R96" H 5145 6321 50  0000 L CNN
-F 1 "10K" H 5145 6230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5005 6275 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5075 6275 50  0001 C CNN
-F 4 "P10KBYCT-ND" H 5075 6275 50  0001 C CNN "Digikey"
-	1    5075 6275
+F 0 "R96" V 4925 6215 50  0000 L CNN
+F 1 "10K" V 4925 5845 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4810 6100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4880 6100 50  0001 C CNN
+F 4 "P10KBYCT-ND" H 4880 6100 50  0001 C CNN "Digikey"
+	1    4880 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 606E2B3F
-P 5375 6275
+P 5010 6100
 AR Path="/606E2B3F" Ref="R?"  Part="1" 
 AR Path="/60627ECF/606E2B3F" Ref="R?"  Part="1" 
 AR Path="/5FF20301/606E2B3F" Ref="R?"  Part="1" 
 AR Path="/6037AE16/606E2B3F" Ref="R?"  Part="1" 
 AR Path="/606D8837/606E2B3F" Ref="R97"  Part="1" 
-F 0 "R97" H 5445 6321 50  0000 L CNN
-F 1 "10K" H 5445 6230 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5305 6275 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5375 6275 50  0001 C CNN
-F 4 "P10KBYCT-ND" H 5375 6275 50  0001 C CNN "Digikey"
-	1    5375 6275
+F 0 "R97" V 5055 6215 50  0000 L CNN
+F 1 "10K" V 5060 5840 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4940 6100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 5010 6100 50  0001 C CNN
+F 4 "P10KBYCT-ND" H 5010 6100 50  0001 C CNN "Digikey"
+	1    5010 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -868,7 +821,7 @@ Connection ~ 8500 6100
 Connection ~ 8950 5650
 Text Notes 2200 6350 0    50   ~ 0
 CPLD user's clocks
-Text Notes 4700 7250 0    50   ~ 0
+Text Notes 5665 6115 0    50   ~ 0
 JTAG interface
 Wire Notes Line
 	9475 925  9475 2575
@@ -888,27 +841,6 @@ Text Notes 9800 900  0    50   ~ 0
 Row control signals
 Text Notes 9525 4825 0    50   ~ 0
 CPLD user's leds
-Wire Wire Line
-	5375 6575 5800 6575
-Wire Wire Line
-	5075 6675 5800 6675
-Wire Wire Line
-	4775 6775 5800 6775
-Wire Wire Line
-	4475 6975 5800 6975
-Wire Wire Line
-	5800 7075 5600 7075
-Wire Wire Line
-	5600 7075 5600 7175
-Wire Wire Line
-	5600 7175 5800 7175
-Wire Wire Line
-	5600 7175 5600 7375
-Connection ~ 5600 7175
-Wire Wire Line
-	5800 6475 5725 6475
-Wire Wire Line
-	5725 6475 5725 6325
 NoConn ~ 1950 3225
 NoConn ~ 1950 3625
 NoConn ~ 1950 3725
@@ -1275,20 +1207,6 @@ Text HLabel 1600 4425 0    50   BiDi ~ 0
 GPIO2
 Text HLabel 1600 4525 0    50   BiDi ~ 0
 GPIO3
-$Comp
-L kicad_library:molex_53261-0871 J12
-U 1 1 607C7C43
-P 6200 6875
-F 0 "J12" H 6430 6871 50  0000 L CNN
-F 1 "molex_53261-0871" H 6430 6780 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 6200 6875 50  0001 L BNN
-F 3 "https://www.molex.com/pdm_docs/ps/510210001-PS-000.pdf" H 6200 6875 50  0001 L BNN
-F 4 "WM7626CT-ND" H 6200 6875 50  0001 C CNN "Digikey"
-	1    6200 6875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 7375 5850 7375
 Wire Wire Line
 	8550 850  8550 925 
 $Comp
@@ -1327,12 +1245,12 @@ $EndComp
 $Comp
 L power:GNDD #PWR048
 U 1 1 60BCDDC9
-P 5600 7525
-F 0 "#PWR048" H 5600 7275 50  0001 C CNN
-F 1 "GNDD" H 5604 7370 50  0000 C CNN
-F 2 "" H 5600 7525 50  0001 C CNN
-F 3 "" H 5600 7525 50  0001 C CNN
-	1    5600 7525
+P 6270 6720
+F 0 "#PWR048" H 6270 6470 50  0001 C CNN
+F 1 "GNDD" H 6274 6565 50  0000 C CNN
+F 2 "" H 6270 6720 50  0001 C CNN
+F 3 "" H 6270 6720 50  0001 C CNN
+	1    6270 6720
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1388,9 +1306,6 @@ Wire Wire Line
 Connection ~ 9625 6100
 Wire Wire Line
 	9625 6100 9825 6100
-Wire Wire Line
-	5600 7375 5600 7525
-Connection ~ 5600 7375
 Wire Wire Line
 	1600 7025 1600 7070
 Connection ~ 1600 7025
@@ -1510,4 +1425,109 @@ Wire Wire Line
 Wire Wire Line
 	3150 7475 3150 7500
 Connection ~ 3150 7475
+$Comp
+L 30306-6002HB:30306-6002HB J?
+U 1 1 613EA734
+P 5710 6550
+AR Path="/60783FC7/613EA734" Ref="J?"  Part="1" 
+AR Path="/606D8837/613EA734" Ref="J12"  Part="1" 
+F 0 "J12" H 5710 6915 50  0000 C CNN
+F 1 "30306-6002HB" H 5710 6824 50  0000 C CNN
+F 2 "3M_30306-6002HB" H 5710 6550 50  0001 L BNN
+F 3 "https://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf" H 5710 6550 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 5710 6550 50  0001 L BNN "STANDARD"
+F 5 "9.3mm" H 5710 6550 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "3M" H 5710 6550 50  0001 L BNN "MANUFACTURER"
+F 7 "" H 5710 6550 50  0001 L BNN "PARTREV"
+F 8 "3M15451-ND" H 5710 6550 50  0001 C CNN "Digikey"
+	1    5710 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4605 5815 4745 5815
+Wire Wire Line
+	5010 5815 5010 5950
+Connection ~ 4745 5815
+Wire Wire Line
+	4745 5815 4810 5815
+Wire Wire Line
+	4880 5950 4880 5815
+Connection ~ 4880 5815
+Wire Wire Line
+	4880 5815 5010 5815
+Connection ~ 4810 5815
+Wire Wire Line
+	4810 5815 4880 5815
+$Comp
+L Device:R R?
+U 1 1 61485031
+P 5150 6100
+AR Path="/60783FC7/61485031" Ref="R?"  Part="1" 
+AR Path="/606D8837/61485031" Ref="R125"  Part="1" 
+F 0 "R125" V 5190 6255 50  0000 C CNN
+F 1 "0R" V 5200 5945 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5080 6100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 5150 6100 50  0001 C CNN
+F 4 "541-10558-1-ND" V 5150 6100 50  0001 C CNN "Digikey"
+	1    5150 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5010 5815 5150 5815
+Wire Wire Line
+	5150 5815 5150 5950
+Connection ~ 5010 5815
+Wire Wire Line
+	5150 6250 5150 6450
+Wire Wire Line
+	5150 6450 5210 6450
+Wire Wire Line
+	5010 6250 5010 6550
+Wire Wire Line
+	5010 6550 5210 6550
+Wire Wire Line
+	4880 6250 4880 6650
+Wire Wire Line
+	4880 6650 5210 6650
+Wire Wire Line
+	6270 6650 6270 6720
+Wire Wire Line
+	4745 6945 6420 6945
+Wire Wire Line
+	6420 6945 6420 6550
+Wire Wire Line
+	6420 6550 6210 6550
+Wire Wire Line
+	4605 7060 6525 7060
+Wire Wire Line
+	6525 7060 6525 6450
+Wire Wire Line
+	6525 6450 6210 6450
+$Comp
+L Device:R R?
+U 1 1 606E2B31
+P 4745 6100
+AR Path="/606E2B31" Ref="R?"  Part="1" 
+AR Path="/60627ECF/606E2B31" Ref="R?"  Part="1" 
+AR Path="/5FF20301/606E2B31" Ref="R?"  Part="1" 
+AR Path="/6037AE16/606E2B31" Ref="R?"  Part="1" 
+AR Path="/606D8837/606E2B31" Ref="R95"  Part="1" 
+F 0 "R95" V 4790 6215 50  0000 L CNN
+F 1 "10K" V 4795 5845 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4675 6100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 4745 6100 50  0001 C CNN
+F 4 "P10KBYCT-ND" H 4745 6100 50  0001 C CNN "Digikey"
+	1    4745 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4745 6945 4745 6250
+Wire Wire Line
+	4605 5815 4605 5950
+Wire Wire Line
+	4745 5815 4745 5950
+Wire Wire Line
+	4605 6250 4605 7060
+Wire Wire Line
+	6270 6650 6210 6650
 $EndSCHEMATC
