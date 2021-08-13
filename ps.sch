@@ -149,22 +149,14 @@ F 3 "~" H 8160 1310 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8160 1185 8160 1310
-Wire Wire Line
-	6430 3995 6005 3995
 Text Label 6430 3995 2    50   ~ 0
 SD_DAT3
-Wire Wire Line
-	6430 3895 6005 3895
 Text Label 6430 3895 2    50   ~ 0
 SD_DAT2
-Wire Wire Line
-	6430 4095 6005 4095
 Text Label 6430 4095 2    50   ~ 0
 SD_CLK
 Text Label 6430 4195 2    50   ~ 0
 SD_CMD
-Wire Wire Line
-	6430 4195 6005 4195
 Text GLabel 2675 5845 1    50   Input ~ 0
 SD_3V3
 Text GLabel 2245 6010 1    50   Input ~ 0
@@ -925,34 +917,14 @@ F 4 "P10KADCT-ND" H 8215 3495 50  0001 C CNN "Digikey"
 	1    8215 3495
 	0    1    1    0   
 $EndComp
-$Comp
-L Analog_Switch:TS3A27518EPW U16
-U 1 1 610114DE
-P 5305 3795
-F 0 "U16" H 5055 4560 50  0000 C CNN
-F 1 "TS3A27518EPW" H 5645 4555 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 5305 4795 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf" H 5305 3695 50  0001 C CNN
-F 4 "296-28159-1-ND" H 5305 3795 50  0001 C CNN "Digikey"
-	1    5305 3795
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6430 3295 6005 3295
 Text Label 6430 3295 2    50   ~ 0
 TCK
-Wire Wire Line
-	6430 3195 6005 3195
 Text Label 6430 3195 2    50   ~ 0
 TDI
-Wire Wire Line
-	6430 3395 6005 3395
 Text Label 6430 3395 2    50   ~ 0
 TMS
 Text Label 6430 3495 2    50   ~ 0
 TDO
-Wire Wire Line
-	6430 3495 6005 3495
 $Comp
 L Device:C C34
 U 1 1 6108BDA4
@@ -1029,19 +1001,6 @@ F 11 "Molex" H 8130 3125 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 8130 3225 60  0001 L CNN "Status"
 	1    7930 2025
 	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5305 4660 5305 4595
-$Comp
-L power:GNDD #PWR040
-U 1 1 611138E4
-P 5305 4660
-F 0 "#PWR040" H 5305 4410 50  0001 C CNN
-F 1 "GNDD" H 5309 4505 50  0000 C CNN
-F 2 "" H 5305 4660 50  0001 C CNN
-F 3 "" H 5305 4660 50  0001 C CNN
-	1    5305 4660
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1495 2615 995  2615
@@ -1267,7 +1226,7 @@ F 3 "" H 645 2105 50  0001 C CNN
 	1    645  2105
 	1    0    0    -1  
 $EndComp
-Text Label 1045 1720 0    50   ~ 0
+Text Label 685  1715 0    50   ~ 0
 ESP_PU
 $Comp
 L Diode:BAT54A D6
@@ -1418,8 +1377,6 @@ U0TXD
 Text Label 9180 5085 0    50   ~ 0
 U0RXD
 Wire Wire Line
-	6430 3595 6005 3595
-Wire Wire Line
 	4605 3595 4030 3595
 Text Label 4030 3595 0    50   ~ 0
 PRG_REST
@@ -1429,8 +1386,6 @@ Wire Wire Line
 	5310 1465 4800 1465
 Text Label 6190 4295 0    50   ~ 0
 PREST
-Wire Wire Line
-	6430 4295 6005 4295
 Text Label 9180 4885 0    50   ~ 0
 PREST
 Wire Wire Line
@@ -1474,10 +1429,8 @@ Wire Wire Line
 	8030 2025 8375 2025
 Text Label 8140 2025 0    50   ~ 0
 GPIO0
-Text HLabel 4280 3895 0    50   Input ~ 0
+Text HLabel 2830 4430 0    50   Input ~ 0
 ~SYS_RST
-Wire Wire Line
-	4605 3895 4280 3895
 Wire Wire Line
 	4605 4095 4525 4095
 Wire Wire Line
@@ -1619,4 +1572,110 @@ Wire Wire Line
 	2675 5920 2675 5845
 Wire Wire Line
 	2860 5920 2860 6390
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 61242A4D
+P 3100 4430
+AR Path="/606D8837/61242A4D" Ref="Q?"  Part="1" 
+AR Path="/60783FC7/61242A4D" Ref="Q10"  Part="1" 
+F 0 "Q10" H 3305 4476 50  0000 L CNN
+F 1 "Q_PMOS_GSD" H 3305 4385 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 4530 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634" H 3100 4430 50  0001 C CNN
+F 4 "IRLML6401PBFCT-ND" H 3100 4430 50  0001 C CNN "Digikey"
+	1    3100 4430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6430 4295 6005 4295
+Wire Wire Line
+	6430 4195 6005 4195
+Wire Wire Line
+	6430 4095 6005 4095
+Wire Wire Line
+	6430 3995 6005 3995
+Wire Wire Line
+	6430 3895 6005 3895
+Wire Wire Line
+	6430 3595 6005 3595
+Wire Wire Line
+	6430 3495 6005 3495
+Wire Wire Line
+	6430 3395 6005 3395
+Wire Wire Line
+	6430 3295 6005 3295
+Wire Wire Line
+	6430 3195 6005 3195
+$Comp
+L power:GNDD #PWR040
+U 1 1 611138E4
+P 5305 4660
+F 0 "#PWR040" H 5305 4410 50  0001 C CNN
+F 1 "GNDD" H 5309 4505 50  0000 C CNN
+F 2 "" H 5305 4660 50  0001 C CNN
+F 3 "" H 5305 4660 50  0001 C CNN
+	1    5305 4660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5305 4660 5305 4595
+$Comp
+L Analog_Switch:TS3A27518EPW U16
+U 1 1 610114DE
+P 5305 3795
+F 0 "U16" H 5055 4560 50  0000 C CNN
+F 1 "TS3A27518EPW" H 5645 4555 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 5305 4795 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf" H 5305 3695 50  0001 C CNN
+F 4 "296-28159-1-ND" H 5305 3795 50  0001 C CNN "Digikey"
+	1    5305 3795
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR070
+U 1 1 61271EC3
+P 3200 4695
+F 0 "#PWR070" H 3200 4445 50  0001 C CNN
+F 1 "GNDD" H 3204 4540 50  0000 C CNN
+F 2 "" H 3200 4695 50  0001 C CNN
+F 3 "" H 3200 4695 50  0001 C CNN
+	1    3200 4695
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4695 3200 4630
+$Comp
+L Device:R R?
+U 1 1 61281275
+P 3200 3980
+AR Path="/61281275" Ref="R?"  Part="1" 
+AR Path="/60627ECF/61281275" Ref="R?"  Part="1" 
+AR Path="/5FF20301/61281275" Ref="R?"  Part="1" 
+AR Path="/607521B4/61281275" Ref="R?"  Part="1" 
+AR Path="/60783FC7/61281275" Ref="R126"  Part="1" 
+F 0 "R126" H 3080 4140 50  0000 L CNN
+F 1 "10K" H 3040 3835 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3130 3980 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 3200 3980 50  0001 C CNN
+F 4 "P10KADCT-ND" H 3200 3980 50  0001 C CNN "Digikey"
+	1    3200 3980
+	-1   0    0    1   
+$EndComp
+Text GLabel 3200 3755 1    50   Input ~ 0
+ESP_3V3
+Wire Wire Line
+	3200 3830 3200 3755
+Wire Wire Line
+	2830 4430 2900 4430
+Wire Wire Line
+	3200 4130 3200 4185
+Wire Wire Line
+	3200 4185 3500 4185
+Wire Wire Line
+	3500 4185 3500 3895
+Wire Wire Line
+	3500 3895 4605 3895
+Connection ~ 3200 4185
+Wire Wire Line
+	3200 4185 3200 4230
 $EndSCHEMATC
