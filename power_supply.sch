@@ -501,4 +501,8 @@ F 7 "A98076-ND" H 2800 3300 50  0001 C CNN "Digikey"
 	1    2800 3300
 	1    0    0    -1  
 $EndComp
+Text Label 7085 3300 0    50   ~ 0
+VCC_3V3
+Text Label 4155 3200 0    50   ~ 0
+VCC_5V0
 $EndSCHEMATC
