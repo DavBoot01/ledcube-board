@@ -278,7 +278,7 @@ F 0 "C6" H 7815 4121 50  0000 L CNN
 F 1 "1uF" H 7815 4030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7738 3925 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A105KA8NNNC.jsp" H 7700 4075 50  0001 C CNN
-F 4 "1276-1102-1-ND" H 7700 4075 50  0001 C CNN "Digikey"
+F 4 "1276-1861-1-ND" H 7700 4075 50  0001 C CNN "Digikey"
 	1    7700 4075
 	1    0    0    -1  
 $EndComp

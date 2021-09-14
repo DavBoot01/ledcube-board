@@ -1198,7 +1198,7 @@ F 0 "C17" H 525 1990 50  0000 L CNN
 F 1 "1uF" H 495 1815 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 683 1760 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A105KA8NNNC.jsp" H 645 1910 50  0001 C CNN
-F 4 "1276-1102-1-ND" H 645 1910 50  0001 C CNN "Digikey"
+F 4 "1276-1861-1-ND" H 645 1910 50  0001 C CNN "Digikey"
 	1    645  1910
 	1    0    0    -1  
 $EndComp
@@ -1233,9 +1233,10 @@ L Diode:BAT54A D6
 U 1 1 61327770
 P 4440 1465
 F 0 "D6" H 4440 1690 50  0000 C CNN
-F 1 "BAT54A" H 4440 1599 50  0000 C CNN
+F 1 "BAS4006E6327HTSA1" H 4440 1599 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4515 1590 50  0001 L CNN
 F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 4320 1465 50  0001 C CNN
+F 4 "BAS4006E6327HTSA1CT-ND" H 4440 1465 50  0001 C CNN "Digikey"
 	1    4440 1465
 	1    0    0    -1  
 $EndComp
